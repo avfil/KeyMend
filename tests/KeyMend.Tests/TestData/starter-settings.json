@@ -1,0 +1,57 @@
+// Стартовый набор KeyMend (SPEC F5.5). Скопируйте в %AppData%\KeyMend\settings.json (или вставьте нужные части в свой файл).
+// Секретные сокращения ("secret": true): KeyMend при чтении переносит "text" в зашифрованный secrets.dat и
+// перезаписывает файл без него. Здесь вместо паролей заглушки test-secret-N — замените на свои до первого запуска.
+// Правила запуска программ (F17, F17 ×2, F18) и сна (F15): путь к программе указан полный; при необходимости поправьте "file".
+{
+  "schemaVersion": 1,
+  "theme": "System",
+  "uiLanguage": "System",
+  "wordBufferLimit": 200,
+  "indicator": { "enabled": true, "onlyOwnSwitch": false, "position": "Caret", "durationMs": 700 },
+  "rules": [
+    { "id": "lang", "name": "Язык", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RCtrl", "maxHoldMs": 150 },
+      "steps": [ { "kind": "SwitchLayout", "mode": "Pair", "pair": ["ru-RU", "en-US"] } ] },
+    { "id": "lang-work", "name": "Язык (работа)", "enabled": false, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RCtrl", "doubleMs": 200 },
+      "steps": [ { "kind": "SwitchLayout", "mode": "Pair", "pair": ["ru-RU", "en-US"] } ] },
+    { "id": "fix-selection", "name": "Исправить выделенное", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RShift", "maxHoldMs": 300 },
+      "steps": [ { "kind": "Correct", "scope": "Selection" } ] },
+    { "id": "fix-line", "name": "Исправить до начала строки", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RShift", "hold": "RCtrl", "maxHoldMs": 300 },
+      "steps": [ { "kind": "Correct", "scope": "Line" } ] },
+    // Мониторы: notepad.exe из установленной папки. F17 и F17 ×2 различаются по двойному нажатию.
+    { "id": "monitor2-toggle", "name": "Монитор 2 выкл/вкл", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F18" },
+      "steps": [ { "kind": "Launch", "type": "Exe", "file": "notepad.exe" } ] },
+    { "id": "monitor1-90", "name": "Монитор 1 — 90°", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F17" },
+      "steps": [ { "kind": "Launch", "type": "Exe", "file": "calc.exe" } ] },
+    { "id": "monitor1-0", "name": "Монитор 1 — 0°", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F17", "doubleMs": 400 },
+      "steps": [ { "kind": "Launch", "type": "Exe", "file": "calc.exe" } ] },
+    { "id": "sleep", "name": "Сон", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F15" },
+      "steps": [ { "kind": "Power", "action": "Sleep" } ] }
+  ],
+  "snippets": [
+    { "id": "dd",  "keys": "дд ",  "text": "Добрый день!",   "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "gm",  "keys": "gm ",  "text": "Good morning!",   "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sp",  "keys": "sp ",  "text": "Спасибо!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "th",  "keys": "th ",  "text": "Thank you!",   "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "br", "keys": "br ", "text": "Best regards", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "hi", "keys": "hi ", "text": "Hello!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "yw", "keys": "yw ",  "text": "You're welcome!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "done",  "keys": "done ",  "text": "Done",    "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "ok",  "keys": "ok ",  "text": "OK",    "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec1", "keys": "sec1 ", "secret": true, "text": "test-secret-1", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec2",  "keys": "sec2 ",  "secret": true, "text": "test-secret-2", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec3", "keys": "sec3 ", "secret": true, "text": "test-secret-3" },
+    { "id": "sec4", "keys": "sec4 ", "secret": true, "text": "test-secret-4" },
+    { "id": "note",  "keys": "note ",  "text": "Note" }
+  ],
+  "exclusions": [
+    { "process": "mstsc.exe", "layoutSwitch": false, "correction": false, "snippets": true, "rules": true }
+  ]
+}

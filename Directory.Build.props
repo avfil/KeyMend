@@ -1,0 +1,35 @@
+<Project>
+  <!-- Общие настройки для всех проектов решения (включая тесты). Лежит в корне репозитория. -->
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Deterministic>true</Deterministic>
+    <!-- Релизная версия, которую видят «О программе», exe и установщик. -->
+    <Version>1.0.0</Version>
+
+    <!-- Анализаторы Roslyn: актуальный набор правил, режим Recommended. -->
+    <AnalysisLevel>latest</AnalysisLevel>
+    <AnalysisMode>Recommended</AnalysisMode>
+    <!-- Правила стиля (IDExxxx) из .editorconfig проверяются при сборке, а не только в IDE. -->
+    <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+    <!-- Нужно для IDE0005 (лишние using) и CS1591 (нет XML-doc у public/protected). Уровень CS1591 задан в .editorconfig. -->
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <!-- Проверка NuGet-пакетов на известные уязвимости, включая транзитивные. -->
+    <NuGetAudit>true</NuGetAudit>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <NuGetAuditLevel>low</NuGetAuditLevel>
+  </PropertyGroup>
+
+  <!-- Анализатор async: ловит .Result/.Wait(), async void и т. п. (VSTHRD*). Только для сборки, в выходные файлы не попадает. -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Threading.Analyzers" Version="18.7.23" PrivateAssets="all" IncludeAssets="runtime; build; native; contentfiles; analyzers" />
+  </ItemGroup>
+
+  <!-- Debug остаётся гибким, Release и CI строгие: любое предупреждение = ошибка. -->
+  <PropertyGroup Condition="'$(Configuration)' == 'Release' Or '$(CI)' == 'true'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
+  </PropertyGroup>
+</Project>

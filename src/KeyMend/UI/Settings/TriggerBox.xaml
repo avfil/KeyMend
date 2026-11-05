@@ -1,0 +1,38 @@
+<UserControl x:Class="KeyMend.UI.Settings.TriggerBox" x:ClassModifier="internal" Focusable="True" IsTabStop="False" FocusVisualStyle="{x:Null}"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:res="clr-namespace:KeyMend.Resources"
+             xmlns:local="clr-namespace:KeyMend.UI.Settings">
+    <StackPanel>
+        <Border x:Name="Field" MinHeight="40" CornerRadius="4" BorderThickness="1"
+                Background="{DynamicResource Km.Field}" BorderBrush="{DynamicResource Km.FieldLine}">
+            <DockPanel Margin="12,0,6,0">
+                <Button x:Name="ActionButton" DockPanel.Dock="Right" Height="28" MinWidth="120" Margin="8,0,0,0"
+                        VerticalAlignment="Center" Click="OnActionClick" FocusVisualStyle="{StaticResource Km.Focus}"/>
+                <TextBlock x:Name="SecondsLeft" DockPanel.Dock="Right" Margin="8,0,0,0" VerticalAlignment="Center"
+                           FontSize="14" MinWidth="36" TextAlignment="Right" Visibility="Collapsed"
+                           Foreground="{DynamicResource Km.Text2}"/>
+                <WrapPanel x:Name="FieldContent" VerticalAlignment="Center" Margin="0,6"/>
+            </DockPanel>
+        </Border>
+
+        <Border x:Name="Bar" Style="{StaticResource Km.InfoBar}" Visibility="Collapsed">
+            <TextBlock x:Name="BarText" TextWrapping="Wrap" FontSize="12" Foreground="{DynamicResource Km.Text}"/>
+        </Border>
+
+        <WrapPanel x:Name="TimingRow" Margin="0,12,0,0" Visibility="Collapsed">
+            <StackPanel Orientation="Horizontal" AutomationProperties.Name="{x:Static res:Strings.TriggerKindName}">
+                <RadioButton x:Name="SingleButton" GroupName="TriggerKind" Style="{StaticResource Km.Segment}"
+                             Content="{x:Static res:Strings.TriggerSingle}" Checked="OnKindChecked"/>
+                <RadioButton x:Name="DoubleButton" GroupName="TriggerKind" Style="{StaticResource Km.Segment}"
+                             Content="{x:Static res:Strings.TriggerDouble}" Margin="4,0,0,0" Checked="OnKindChecked"/>
+            </StackPanel>
+            <StackPanel x:Name="TimeGroup" Orientation="Horizontal" VerticalAlignment="Center" Margin="24,0,0,0">
+                <TextBlock x:Name="TimeLabel" Style="{StaticResource Km.CardHint}" VerticalAlignment="Center" Margin="0,0,8,0"/>
+                <local:NumberBox x:Name="TimeBox" Width="88" AutomationProperties.Name="{x:Static res:Strings.TriggerMs}"/>
+                <TextBlock Style="{StaticResource Km.CardHint}" VerticalAlignment="Center" Margin="6,0,0,0"
+                           Text="{x:Static res:Strings.TriggerMs}"/>
+            </StackPanel>
+        </WrapPanel>
+    </StackPanel>
+</UserControl>

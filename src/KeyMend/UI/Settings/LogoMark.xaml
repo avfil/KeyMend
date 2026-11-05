@@ -1,0 +1,50 @@
+<UserControl x:Class="KeyMend.UI.Settings.LogoMark" x:ClassModifier="internal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Width="40" Height="40" Focusable="False" IsTabStop="False">
+    <!-- Логотип M (SPEC F10): плитка, микросхема с выводами, ядро; серый вариант и щит администратора задаются свойствами. -->
+    <Viewbox Stretch="Uniform">
+        <Canvas Width="40" Height="40">
+            <Canvas.Resources>
+                <Style x:Key="Tile" TargetType="Rectangle">
+                    <Setter Property="Fill" Value="#60CDFF"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Greyed, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
+                            <Setter Property="Fill" Value="#7A7A7A"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+                <Style x:Key="Core" TargetType="Rectangle">
+                    <Setter Property="Fill" Value="#FF6B6B"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Greyed, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
+                            <Setter Property="Fill" Value="#8F8F8F"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+                <Style x:Key="ShieldPart" TargetType="Shape">
+                    <Setter Property="Visibility" Value="Collapsed"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding Shield, RelativeSource={RelativeSource AncestorType=UserControl}}" Value="True">
+                            <Setter Property="Visibility" Value="Visible"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Canvas.Resources>
+            <Canvas Width="32" Height="32">
+                <Canvas.RenderTransform>
+                    <ScaleTransform ScaleX="1.25" ScaleY="1.25"/>
+                </Canvas.RenderTransform>
+                <Rectangle Width="32" Height="32" RadiusX="8" RadiusY="8" Style="{StaticResource Tile}"/>
+                <Path Stroke="White" StrokeThickness="2" StrokeStartLineCap="Round" StrokeEndLineCap="Round"
+                      Data="M12.5,5.5 V9 M16,5.5 V9 M19.5,5.5 V9 M12.5,23 V26.5 M16,23 V26.5 M19.5,23 V26.5 M5.5,12.5 H9 M5.5,16 H9 M5.5,19.5 H9 M23,12.5 H26.5 M23,16 H26.5 M23,19.5 H26.5"/>
+                <Rectangle Canvas.Left="9" Canvas.Top="9" Width="14" Height="14" RadiusX="2.5" RadiusY="2.5" Fill="White"/>
+                <Rectangle Canvas.Left="12.5" Canvas.Top="12.5" Width="7" Height="7" RadiusX="1.2" RadiusY="1.2" Style="{StaticResource Core}"/>
+            </Canvas>
+            <Ellipse Canvas.Left="26" Canvas.Top="26" Width="14" Height="14" Fill="#FF6B6B" StrokeThickness="2"
+                     Stroke="{DynamicResource Km.Bg}" Style="{StaticResource ShieldPart}"/>
+            <Path Fill="#333333" Style="{StaticResource ShieldPart}"
+                  Data="M33,29.5 L35.6,30.5 V32.3 C35.6,33.9 34.5,35.1 33,35.8 C31.5,35.1 30.4,33.9 30.4,32.3 V30.5 Z"/>
+        </Canvas>
+    </Viewbox>
+</UserControl>

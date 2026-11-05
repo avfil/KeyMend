@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>KeyMend Settings</value></data>
+  <data name="WindowTitleAdmin" xml:space="preserve"><value>· administrator</value></data>
+  <data name="AppName" xml:space="preserve"><value>KeyMend</value></data>
+  <data name="SearchPlaceholder" xml:space="preserve"><value>Find a setting</value></data>
+  <data name="SectionGeneral" xml:space="preserve"><value>General</value></data>
+  <data name="SectionRules" xml:space="preserve"><value>Rules</value></data>
+  <data name="SectionSnippets" xml:space="preserve"><value>Snippets</value></data>
+  <data name="SectionHint" xml:space="preserve"><value>Layout hint</value></data>
+  <data name="SectionExclusions" xml:space="preserve"><value>Exclusions</value></data>
+  <data name="SectionTransfer" xml:space="preserve"><value>Transfer</value></data>
+  <data name="SectionAbout" xml:space="preserve"><value>About</value></data>
+  <data name="StatusWorking" xml:space="preserve"><value>Running · normal mode</value></data>
+  <data name="StatusWorkingAdmin" xml:space="preserve"><value>Running · as administrator</value></data>
+  <data name="StatusPaused" xml:space="preserve"><value>Paused</value></data>
+  <data name="GroupAppearance" xml:space="preserve"><value>Appearance</value></data>
+  <data name="ThemeTitle" xml:space="preserve"><value>Theme</value></data>
+  <data name="ThemeDescription" xml:space="preserve"><value>Color of the settings window</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Use system setting</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Light</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Dark</value></data>
+  <data name="LanguageTitle" xml:space="preserve"><value>Interface language</value></data>
+  <data name="LanguageDescription" xml:space="preserve"><value>Language of the settings window, menu and notifications</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Use Windows language</value></data>
+  <data name="LanguageRussian" xml:space="preserve"><value>Русский</value></data>
+  <data name="LanguageEnglish" xml:space="preserve"><value>English</value></data>
+  <data name="HelpLanguage" xml:space="preserve"><value>Changes right away, no restart needed.
+
+**Use Windows language** — Russian if Windows is in Russian, otherwise English. The activity log is always in English.</value></data>
+  <data name="GroupLinks" xml:space="preserve"><value>Related links</value></data>
+  <data name="OpenSettingsFile" xml:space="preserve"><value>Open the settings file</value></data>
+  <data name="TrayEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="TraySettings" xml:space="preserve"><value>Settings…</value></data>
+  <data name="TrayCancelTimer" xml:space="preserve"><value>Cancel power timer</value></data>
+  <data name="TrayAutostart" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="TrayAdminAutostart" xml:space="preserve"><value>Start with Windows as administrator</value></data>
+  <data name="TrayOpenDataFolder" xml:space="preserve"><value>Open data folder</value></data>
+  <data name="TrayAbout" xml:space="preserve"><value>About</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>Exit</value></data>
+  <data name="TrayTipAdmin" xml:space="preserve"><value>KeyMend · administrator</value></data>
+  <data name="TrayTipPaused" xml:space="preserve"><value>Paused</value></data>
+  <data name="TriggerNotSet" xml:space="preserve"><value>Not set</value></data>
+  <data name="TriggerRecord" xml:space="preserve"><value>Record</value></data>
+  <data name="TriggerRerecord" xml:space="preserve"><value>Record again</value></data>
+  <data name="TriggerRecordingPrompt" xml:space="preserve"><value>Press the keys…</value></data>
+  <data name="TriggerCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="TriggerRecordingNote" xml:space="preserve"><value>KeyMend rules don't run while recording. Esc cancels.</value></data>
+  <data name="TriggerHoldLabel" xml:space="preserve"><value>hold</value></data>
+  <data name="TriggerSingle" xml:space="preserve"><value>Single</value></data>
+  <data name="TriggerDouble" xml:space="preserve"><value>Double</value></data>
+  <data name="TriggerKindName" xml:space="preserve"><value>Press type</value></data>
+  <data name="TriggerHoldFor" xml:space="preserve"><value>Release within</value></data>
+  <data name="TriggerDoubleWithin" xml:space="preserve"><value>Second press within</value></data>
+  <data name="TriggerSecondsLeft" xml:space="preserve"><value>{0} s</value></data>
+  <data name="TriggerMs" xml:space="preserve"><value>ms</value></data>
+  <data name="TriggerOpenRule" xml:space="preserve"><value>Open this rule</value></data>
+  <data name="TriggerBusy" xml:space="preserve"><value>{0} is already used by the rule “{1}” {2}.</value></data>
+  <data name="TriggerSystem" xml:space="preserve"><value>{0} is a Windows system shortcut and can't be assigned.</value></data>
+  <data name="TriggerWindowsSwitch" xml:space="preserve"><value>{0} may also switch the language in Windows. You can still save</value></data>
+  <data name="TriggerDelaySingle" xml:space="preserve"><value>Runs with a {0} ms delay: there is another rule on {1}</value></data>
+  <data name="TriggerDelayDouble" xml:space="preserve"><value>The single-press rule “{1}” on these keys will run with a {0} ms delay</value></data>
+  <data name="TriggerEverywhere" xml:space="preserve"><value>in all programs</value></data>
+  <data name="TriggerInPrograms" xml:space="preserve"><value>only in {0}</value></data>
+  <data name="RulesLead" xml:space="preserve"><value>Press keys — KeyMend performs an action</value></data>
+  <data name="RuleGroupLanguage" xml:space="preserve"><value>Language switching</value></data>
+  <data name="RuleGroupCorrection" xml:space="preserve"><value>Text correction</value></data>
+  <data name="RuleGroupLaunch" xml:space="preserve"><value>Launch programs</value></data>
+  <data name="RuleGroupPower" xml:space="preserve"><value>Power</value></data>
+  <data name="RuleGroupOther" xml:space="preserve"><value>Other</value></data>
+  <data name="RuleFilterAll" xml:space="preserve"><value>All</value></data>
+  <data name="RuleFilterEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="RuleFilterDisabled" xml:space="preserve"><value>Disabled</value></data>
+  <data name="RulesSearch" xml:space="preserve"><value>Search by name or key</value></data>
+  <data name="RulesAdd" xml:space="preserve"><value>Add rule</value></data>
+  <data name="RulesEmpty" xml:space="preserve"><value>No rules match this filter</value></data>
+  <data name="ColEnabled" xml:space="preserve"><value>On</value></data>
+  <data name="ColName" xml:space="preserve"><value>Name</value></data>
+  <data name="ColKeys" xml:space="preserve"><value>Keys</value></data>
+  <data name="ColAction" xml:space="preserve"><value>What it does</value></data>
+  <data name="ColWhere" xml:space="preserve"><value>Where it works</value></data>
+  <data name="SummaryNoSteps" xml:space="preserve"><value>Does nothing</value></data>
+  <data name="SummaryMore" xml:space="preserve"><value>{0} and {1} more</value></data>
+  <data name="SummaryLanguagePair" xml:space="preserve"><value>{0} ⇄ {1}</value></data>
+  <data name="SummaryLanguageSpecific" xml:space="preserve"><value>Switch to: {0}</value></data>
+  <data name="SummaryCorrectSelection" xml:space="preserve"><value>Fix selected text</value></data>
+  <data name="SummaryCorrectLine" xml:space="preserve"><value>Fix text up to the start of the line</value></data>
+  <data name="SummaryLaunch" xml:space="preserve"><value>Launch {0}</value></data>
+  <data name="SummaryPress" xml:space="preserve"><value>Press {0}</value></data>
+  <data name="SummaryDelay" xml:space="preserve"><value>Wait {0} ms</value></data>
+  <data name="SummaryInsert" xml:space="preserve"><value>Insert text</value></data>
+  <data name="SummaryServicePause" xml:space="preserve"><value>Pause or resume KeyMend</value></data>
+  <data name="SummaryServiceOpen" xml:space="preserve"><value>Open settings</value></data>
+  <data name="SummaryServiceCancelTimer" xml:space="preserve"><value>Cancel power timer</value></data>
+  <data name="PowerSleep" xml:space="preserve"><value>Sleep</value></data>
+  <data name="PowerHibernate" xml:space="preserve"><value>Hibernate</value></data>
+  <data name="PowerShutdown" xml:space="preserve"><value>Shut down</value></data>
+  <data name="PowerRestart" xml:space="preserve"><value>Restart</value></data>
+  <data name="PowerLock" xml:space="preserve"><value>Lock</value></data>
+  <data name="PowerSignOut" xml:space="preserve"><value>Sign out</value></data>
+  <data name="SummaryPowerNow" xml:space="preserve"><value>{0} now</value></data>
+  <data name="SummaryPowerAfter" xml:space="preserve"><value>{0} in {1} min</value></data>
+  <data name="WhereEverywhere" xml:space="preserve"><value>everywhere</value></data>
+  <data name="WhereOnly" xml:space="preserve"><value>only in {0}</value></data>
+  <data name="WhereOnlyMore" xml:space="preserve"><value>only in {0} +{1}</value></data>
+  <data name="RuleMenuEdit" xml:space="preserve"><value>Edit</value></data>
+  <data name="RuleMenuDuplicate" xml:space="preserve"><value>Duplicate</value></data>
+  <data name="RuleMenuDelete" xml:space="preserve"><value>Delete</value></data>
+  <data name="RuleCopyName" xml:space="preserve"><value>{0} (copy)</value></data>
+  <data name="RuleMore" xml:space="preserve"><value>More</value></data>
+  <data name="RuleDelayBadge" xml:space="preserve"><value>after {0} ms</value></data>
+  <data name="RuleToggleLabel" xml:space="preserve"><value>{0}: enabled</value></data>
+  <data name="RuleSaveFailed" xml:space="preserve"><value>Couldn't save the settings. Make sure the file isn't in use by another program.</value></data>
+  <data name="RuleNotEnabled" xml:space="preserve"><value>The rule “{0}” wasn't enabled. {1}</value></data>
+  <data name="DeleteRuleTitle" xml:space="preserve"><value>Delete the rule?</value></data>
+  <data name="DeleteRuleText" xml:space="preserve"><value>The rule “{0}” will be deleted.</value></data>
+  <data name="DialogDelete" xml:space="preserve"><value>Delete</value></data>
+  <data name="DialogCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="AddRuleLanguage" xml:space="preserve"><value>Language switching</value></data>
+  <data name="AddRuleCorrection" xml:space="preserve"><value>Text correction</value></data>
+  <data name="LanguageNotInstalled" xml:space="preserve"><value>{0} (not installed)</value></data>
+  <data name="EditorNewRule" xml:space="preserve"><value>New rule</value></data>
+  <data name="EditorName" xml:space="preserve"><value>Name</value></data>
+  <data name="EditorEnabled" xml:space="preserve"><value>Enabled</value></data>
+  <data name="SwitchOn" xml:space="preserve"><value>On</value></data>
+  <data name="SwitchOff" xml:space="preserve"><value>Off</value></data>
+  <data name="EditorKeys" xml:space="preserve"><value>Keys</value></data>
+  <data name="EditorWhere" xml:space="preserve"><value>Where it works</value></data>
+  <data name="WhereAll" xml:space="preserve"><value>In all programs</value></data>
+  <data name="WhereSelected" xml:space="preserve"><value>Only in selected programs</value></data>
+  <data name="ProgramPlaceholder" xml:space="preserve"><value>Program name, e.g. chrome.exe</value></data>
+  <data name="ProgramAdd" xml:space="preserve"><value>Add</value></data>
+  <data name="ProgramRemove" xml:space="preserve"><value>Remove {0}</value></data>
+  <data name="EditorSteps" xml:space="preserve"><value>What it does</value></data>
+  <data name="EditorStepsHint" xml:space="preserve"><value>steps run in order</value></data>
+  <data name="StepSwitchLayout" xml:space="preserve"><value>Switch language</value></data>
+  <data name="StepCorrect" xml:space="preserve"><value>Fix text layout</value></data>
+  <data name="StepLaunch" xml:space="preserve"><value>Launch a program</value></data>
+  <data name="StepPower" xml:space="preserve"><value>Power</value></data>
+  <data name="StepPress" xml:space="preserve"><value>Press a key</value></data>
+  <data name="StepDelay" xml:space="preserve"><value>Wait</value></data>
+  <data name="StepInsert" xml:space="preserve"><value>Insert text</value></data>
+  <data name="StepService" xml:space="preserve"><value>KeyMend action</value></data>
+  <data name="SwitchHow" xml:space="preserve"><value>How to switch</value></data>
+  <data name="SwitchPair" xml:space="preserve"><value>Alternate between two languages</value></data>
+  <data name="SwitchOne" xml:space="preserve"><value>Always switch to one language</value></data>
+  <data name="SwitchHintLabel" xml:space="preserve"><value>Layout hint</value></data>
+  <data name="SwitchHintText" xml:space="preserve"><value>Shown when the language changes</value></data>
+  <data name="SwitchHintLink" xml:space="preserve"><value>Configure</value></data>
+  <data name="CorrectWhat" xml:space="preserve"><value>What to fix</value></data>
+  <data name="CorrectSelection" xml:space="preserve"><value>Selected text</value></data>
+  <data name="CorrectLine" xml:space="preserve"><value>Up to the start of the line</value></data>
+  <data name="CorrectLanguages" xml:space="preserve"><value>Languages</value></data>
+  <data name="CorrectSwitchAfter" xml:space="preserve"><value>Switch language after fixing</value></data>
+  <data name="CorrectMax" xml:space="preserve"><value>No more than</value></data>
+  <data name="CorrectChars" xml:space="preserve"><value>characters</value></data>
+  <data name="ErrNameEmpty" xml:space="preserve"><value>Enter a rule name</value></data>
+  <data name="ErrTriggerMissing" xml:space="preserve"><value>Record the keys</value></data>
+  <data name="ErrNoPrograms" xml:space="preserve"><value>Add at least one program or choose “In all programs”</value></data>
+  <data name="ErrSameLanguages" xml:space="preserve"><value>Choose two different languages</value></data>
+  <data name="DeleteRule" xml:space="preserve"><value>Delete rule</value></data>
+  <data name="EditorSave" xml:space="preserve"><value>Save</value></data>
+  <data name="UnsavedTitle" xml:space="preserve"><value>Save changes?</value></data>
+  <data name="UnsavedText" xml:space="preserve"><value>The rule “{0}” has unsaved changes.</value></data>
+  <data name="UnsavedSave" xml:space="preserve"><value>Save</value></data>
+  <data name="UnsavedDiscard" xml:space="preserve"><value>Don't save</value></data>
+  <data name="RuleFilterState" xml:space="preserve"><value>Show rules</value></data>
+  <data name="StepUp" xml:space="preserve"><value>Move up</value></data>
+  <data name="StepDown" xml:space="preserve"><value>Move down</value></data>
+  <data name="StepRemove" xml:space="preserve"><value>Remove step</value></data>
+  <data name="StepAdd" xml:space="preserve"><value>Add step</value></data>
+  <data name="ErrNoSteps" xml:space="preserve"><value>Add at least one step</value></data>
+  <data name="ErrNoFile" xml:space="preserve"><value>Specify the program file</value></data>
+  <data name="ErrBadFile" xml:space="preserve"><value>Invalid file: don't use quotes, and a path without a drive letter must be inside the scripts folder</value></data>
+  <data name="ErrNoKeys" xml:space="preserve"><value>Specify a key, e.g. Ctrl+Enter</value></data>
+  <data name="ErrNoText" xml:space="preserve"><value>Enter the text to insert</value></data>
+  <data name="LaunchFile" xml:space="preserve"><value>File</value></data>
+  <data name="LaunchBrowse" xml:space="preserve"><value>Browse…</value></data>
+  <data name="LaunchType" xml:space="preserve"><value>Run with</value></data>
+  <data name="LaunchTypeExe" xml:space="preserve"><value>Program (.exe)</value></data>
+  <data name="LaunchTypePwsh" xml:space="preserve"><value>PowerShell 7 (.ps1)</value></data>
+  <data name="LaunchTypePowerShell" xml:space="preserve"><value>Windows PowerShell 5.1 (.ps1)</value></data>
+  <data name="LaunchTypeCmd" xml:space="preserve"><value>Batch file (.cmd, .bat)</value></data>
+  <data name="LaunchArgs" xml:space="preserve"><value>Arguments</value></data>
+  <data name="LaunchWindow" xml:space="preserve"><value>Program window</value></data>
+  <data name="LaunchWindowNormal" xml:space="preserve"><value>Normal</value></data>
+  <data name="LaunchWindowHidden" xml:space="preserve"><value>Hidden</value></data>
+  <data name="LaunchWindowMin" xml:space="preserve"><value>Minimized</value></data>
+  <data name="LaunchRepeat" xml:space="preserve"><value>If already running</value></data>
+  <data name="LaunchRepeatIgnore" xml:space="preserve"><value>Don't launch again</value></data>
+  <data name="LaunchRepeatAnother" xml:space="preserve"><value>Launch another copy</value></data>
+  <data name="LaunchRepeatStop" xml:space="preserve"><value>Close it and launch again</value></data>
+  <data name="LaunchWait" xml:space="preserve"><value>Wait for it to finish</value></data>
+  <data name="LaunchWorkDir" xml:space="preserve"><value>Working folder</value></data>
+  <data name="LaunchWorkDirHint" xml:space="preserve"><value>The file's folder</value></data>
+  <data name="PowerAction" xml:space="preserve"><value>Action</value></data>
+  <data name="PowerWhen" xml:space="preserve"><value>When</value></data>
+  <data name="PowerNow" xml:space="preserve"><value>Now</value></data>
+  <data name="PowerAfter" xml:space="preserve"><value>In</value></data>
+  <data name="PowerMinutes" xml:space="preserve"><value>min</value></data>
+  <data name="PowerCountdown" xml:space="preserve"><value>10-second countdown with a “Cancel” button</value></data>
+  <data name="PowerHibernateOff" xml:space="preserve"><value>Hibernation is turned off in Windows: the step will do nothing until you turn it on</value></data>
+  <data name="PressKeys" xml:space="preserve"><value>Keys</value></data>
+  <data name="PressChoose" xml:space="preserve"><value>Choose ▾</value></data>
+  <data name="PressMenuArrows" xml:space="preserve"><value>Arrows</value></data>
+  <data name="PressMenuFKeys" xml:space="preserve"><value>F1–F24</value></data>
+  <data name="PressPlaceholder" xml:space="preserve"><value>e.g. Ctrl+Enter</value></data>
+  <data name="DelayMs" xml:space="preserve"><value>Wait</value></data>
+  <data name="DelayUnit" xml:space="preserve"><value>ms</value></data>
+  <data name="InsertText" xml:space="preserve"><value>Text</value></data>
+  <data name="InsertHow" xml:space="preserve"><value>How to insert</value></data>
+  <data name="InsertType" xml:space="preserve"><value>Type it</value></data>
+  <data name="InsertClipboard" xml:space="preserve"><value>Via the clipboard</value></data>
+  <data name="InsertNewline" xml:space="preserve"><value>Type line breaks as</value></data>
+  <data name="NewlineShiftEnter" xml:space="preserve"><value>Shift+Enter</value></data>
+  <data name="NewlineEnter" xml:space="preserve"><value>Enter</value></data>
+  <data name="InsertSecret" xml:space="preserve"><value>Secret text: edit it in the “Snippets” section</value></data>
+  <data name="ServiceAction" xml:space="preserve"><value>Action</value></data>
+  <data name="AddRuleLaunch" xml:space="preserve"><value>Launch programs</value></data>
+  <data name="AddRulePower" xml:space="preserve"><value>Power</value></data>
+  <data name="LaunchFileFilter" xml:space="preserve"><value>Programs and scripts (*.exe;*.ps1;*.cmd;*.bat)|*.exe;*.ps1;*.cmd;*.bat|All files (*.*)|*.*</value></data>
+  <data name="SnipLead" xml:space="preserve"><value>Type an abbreviation — KeyMend replaces it with text</value></data>
+  <data name="SnipBufferTitle" xml:space="preserve"><value>Typing memory</value></data>
+  <data name="SnipBufferHint" xml:space="preserve"><value>How many recent key presses snippets remember</value></data>
+  <data name="SnipBufferUnit" xml:space="preserve"><value>key presses</value></data>
+  <data name="SnipSearch" xml:space="preserve"><value>Search by abbreviation or text</value></data>
+  <data name="SnipOnlySecrets" xml:space="preserve"><value>Secrets only</value></data>
+  <data name="SnipCount" xml:space="preserve"><value>Snippets: {0} · secrets: {1}</value></data>
+  <data name="SnipAdd" xml:space="preserve"><value>Add</value></data>
+  <data name="SnipColKeys" xml:space="preserve"><value>Abbreviation</value></data>
+  <data name="SnipColText" xml:space="preserve"><value>Text</value></data>
+  <data name="SnipColAfter" xml:space="preserve"><value>After inserting</value></data>
+  <data name="SnipColHow" xml:space="preserve"><value>How to insert</value></data>
+  <data name="SnipEmpty" xml:space="preserve"><value>No snippets match this filter</value></data>
+  <data name="SnipSecretCell" xml:space="preserve"><value>secret ••••••••</value></data>
+  <data name="SnipHowType" xml:space="preserve"><value>typed</value></data>
+  <data name="SnipHowClipboard" xml:space="preserve"><value>clipboard</value></data>
+  <data name="SnipSpaceNote" xml:space="preserve"><value>␣ — space</value></data>
+  <data name="SnipToggleLabel" xml:space="preserve"><value>{0}: enabled</value></data>
+  <data name="SnipNotEnabled" xml:space="preserve"><value>The snippet “{0}” wasn't enabled. {1}</value></data>
+  <data name="SnipOpenSnippet" xml:space="preserve"><value>Open this snippet</value></data>
+  <data name="SnipEditorNew" xml:space="preserve"><value>New snippet</value></data>
+  <data name="SnipKeys" xml:space="preserve"><value>Abbreviation</value></data>
+  <data name="SnipInOther" xml:space="preserve"><value>same keys in the other layout: {0}</value></data>
+  <data name="SnipSecret" xml:space="preserve"><value>Secret</value></data>
+  <data name="SnipSecretHint" xml:space="preserve"><value>For passwords: the text is stored encrypted</value></data>
+  <data name="SnipText" xml:space="preserve"><value>Text</value></data>
+  <data name="SnipTextSecretName" xml:space="preserve"><value>Secret text</value></data>
+  <data name="SnipShow" xml:space="preserve"><value>Show</value></data>
+  <data name="SnipHide" xml:space="preserve"><value>Hide</value></data>
+  <data name="SnipSecretOnlyClipboard" xml:space="preserve"><value>A secret is inserted only via the clipboard</value></data>
+  <data name="SnipNewlineHint" xml:space="preserve"><value>So a chat or form isn't submitted too early</value></data>
+  <data name="SnipAfter" xml:space="preserve"><value>After inserting</value></data>
+  <data name="SnipAfterHint" xml:space="preserve"><value>optional</value></data>
+  <data name="SnipDelete" xml:space="preserve"><value>Delete snippet</value></data>
+  <data name="DeleteSnipTitle" xml:space="preserve"><value>Delete the snippet?</value></data>
+  <data name="DeleteSnipText" xml:space="preserve"><value>The snippet “{0}” will be deleted.</value></data>
+  <data name="UnsavedSnipText" xml:space="preserve"><value>The snippet “{0}” has unsaved changes.</value></data>
+  <data name="SnipErrKeysEmpty" xml:space="preserve"><value>Enter an abbreviation</value></data>
+  <data name="SnipErrUntypable" xml:space="preserve"><value>These characters can't be typed in any installed layout</value></data>
+  <data name="SnipErrTextEmpty" xml:space="preserve"><value>Enter the replacement text</value></data>
+  <data name="SnipErrTaken" xml:space="preserve"><value>These keys are already used by the snippet “{0}”.</value></data>
+  <data name="SnipWarnPrefix" xml:space="preserve"><value>This abbreviation is the beginning of “{0}”: it will fire first, and “{0}” will never fire.</value></data>
+  <data name="SnipWarnStartsWith" xml:space="preserve"><value>“{0}” is the beginning of this abbreviation: “{0}” will fire first, and this one never will.</value></data>
+  <data name="SnipSecretMissing" xml:space="preserve"><value>The secret text wasn't found in the store — enter it again.</value></data>
+  <data name="SnipSecretFailed" xml:space="preserve"><value>Couldn't save the secret to the encrypted store.</value></data>
+  <data name="HintEnabledTitle" xml:space="preserve"><value>Show the layout hint</value></data>
+  <data name="HintEnabledHint" xml:space="preserve"><value>Turn on to see when the layout changes</value></data>
+  <data name="HintPositionTitle" xml:space="preserve"><value>Where to show it</value></data>
+  <data name="HintPositionHint" xml:space="preserve"><value>Near the text cursor or the mouse pointer</value></data>
+  <data name="HintPositionCaret" xml:space="preserve"><value>Near the cursor, otherwise the mouse</value></data>
+  <data name="HintPositionMouse" xml:space="preserve"><value>Always near the mouse</value></data>
+  <data name="HintDurationTitle" xml:space="preserve"><value>How long to show it</value></data>
+  <data name="HintDurationHint" xml:space="preserve"><value>The hint disappears after this time</value></data>
+  <data name="HintDurationUnit" xml:space="preserve"><value>ms</value></data>
+  <data name="HintOnlyOwnTitle" xml:space="preserve"><value>Only when KeyMend switches the language</value></data>
+  <data name="HintOnlyOwnHint" xml:space="preserve"><value>Don't show it for Alt+Shift or changes from the taskbar</value></data>
+  <data name="HintSampleTitle" xml:space="preserve"><value>What it looks like</value></data>
+  <data name="HintSampleHint" xml:space="preserve"><value>Click to see the hint on screen</value></data>
+  <data name="HintShow" xml:space="preserve"><value>Show</value></data>
+  <data name="HintLanguageRulesLink" xml:space="preserve"><value>Language switching rules</value></data>
+  <data name="ExclLead" xml:space="preserve"><value>Programs where KeyMend features aren't needed</value></data>
+  <data name="ExclManual" xml:space="preserve"><value>Enter the name manually</value></data>
+  <data name="ExclManualHint" xml:space="preserve"><value>Program name, e.g. chrome.exe</value></data>
+  <data name="ExclFromRunning" xml:space="preserve"><value>Add from running programs</value></data>
+  <data name="ExclAdd" xml:space="preserve"><value>Add</value></data>
+  <data name="ExclInvalidName" xml:space="preserve"><value>Enter a program name, e.g. chrome.exe, without the characters \ / : * ? &quot; &lt; &gt; |</value></data>
+  <data name="ExclDuplicate" xml:space="preserve"><value>{0} is already in the list.</value></data>
+  <data name="ExclSearchRunning" xml:space="preserve"><value>Find a program</value></data>
+  <data name="ExclRunningNow" xml:space="preserve"><value>Running now</value></data>
+  <data name="ExclNoRunning" xml:space="preserve"><value>No matching programs</value></data>
+  <data name="ExclCountOne" xml:space="preserve"><value>program</value></data>
+  <data name="ExclCountFew" xml:space="preserve"><value>programs</value></data>
+  <data name="ExclCountMany" xml:space="preserve"><value>programs</value></data>
+  <data name="ExclEmpty" xml:space="preserve"><value>No exclusions: KeyMend works in all programs</value></data>
+  <data name="ExclColProgram" xml:space="preserve"><value>Program</value></data>
+  <data name="ExclColWorks" xml:space="preserve"><value>What works in the program</value></data>
+  <data name="ExclFeatureLayout" xml:space="preserve"><value>Language switching</value></data>
+  <data name="ExclFeatureCorrection" xml:space="preserve"><value>Text correction</value></data>
+  <data name="ExclFeatureSnippets" xml:space="preserve"><value>Snippets</value></data>
+  <data name="ExclFeatureRules" xml:space="preserve"><value>Other rules</value></data>
+  <data name="ExclDelete" xml:space="preserve"><value>Delete {0}</value></data>
+  <data name="GeneralGroupWork" xml:space="preserve"><value>Behavior</value></data>
+  <data name="GeneralEnabledTitle" xml:space="preserve"><value>KeyMend is on</value></data>
+  <data name="GeneralEnabledHint" xml:space="preserve"><value>Turn on to make all KeyMend features work</value></data>
+  <data name="GeneralLogTitle" xml:space="preserve"><value>Keep an activity log</value></data>
+  <data name="GeneralLogHint" xml:space="preserve"><value>Only needed to troubleshoot problems</value></data>
+  <data name="GeneralGroupAutostart" xml:space="preserve"><value>Startup</value></data>
+  <data name="GeneralAutostartTitle" xml:space="preserve"><value>Start with Windows</value></data>
+  <data name="GeneralAutostartHint" xml:space="preserve"><value>KeyMend will start when you sign in to Windows, with normal permissions</value></data>
+  <data name="GeneralAdminTitle" xml:space="preserve"><value>Start with Windows as administrator</value></data>
+  <data name="GeneralAdminHint" xml:space="preserve"><value>Lets KeyMend work in windows that run as administrator</value></data>
+  <data name="GeneralAdminEnable" xml:space="preserve"><value>Turn on…</value></data>
+  <data name="GeneralAdminDisable" xml:space="preserve"><value>Turn off…</value></data>
+  <data name="GeneralOpenFolder" xml:space="preserve"><value>Open the settings folder</value></data>
+  <data name="AboutVersion" xml:space="preserve"><value>Version {0}</value></data>
+  <data name="AboutAdminBadge" xml:space="preserve"><value>Running as administrator</value></data>
+  <data name="AboutGroupInfo" xml:space="preserve"><value>Information</value></data>
+  <data name="AboutPrivacyTitle" xml:space="preserve"><value>Privacy</value></data>
+  <data name="AboutPrivacyText" xml:space="preserve"><value>KeyMend doesn't connect to the internet and doesn't record what you type. The only thing it writes to the registry is the startup entry</value></data>
+  <data name="AboutGroupFolders" xml:space="preserve"><value>Application folders</value></data>
+  <data name="AboutFolderProgram" xml:space="preserve"><value>Program</value></data>
+  <data name="AboutFolderData" xml:space="preserve"><value>Settings, secrets and backups</value></data>
+  <data name="AboutFolderScripts" xml:space="preserve"><value>Scripts</value></data>
+  <data name="AboutFolderLog" xml:space="preserve"><value>Activity log</value></data>
+  <data name="AboutLogOff" xml:space="preserve"><value>empty for now, the log is off</value></data>
+  <data name="AboutOpen" xml:space="preserve"><value>Open</value></data>
+  <data name="AboutGroupRegistry" xml:space="preserve"><value>Windows registry</value></data>
+  <data name="AboutRegistryTitle" xml:space="preserve"><value>Startup</value></data>
+  <data name="AboutRegistryValue" xml:space="preserve"><value>If there is no “{0}” value, startup is off</value></data>
+  <data name="AboutCopyPath" xml:space="preserve"><value>Copy path</value></data>
+  <data name="AboutRepoTitle" xml:space="preserve"><value>Repository</value></data>
+  <data name="AboutRepoHint" xml:space="preserve"><value>Source code and new versions.</value></data>
+  <data name="AboutCopyLink" xml:space="preserve"><value>Copy link</value></data>
+  <data name="HelpButtonName" xml:space="preserve"><value>Help: </value></data>
+  <data name="HelpTheme" xml:space="preserve"><value>Changes the color of the settings window and the tray icon menu.
+
+**Use system setting** — the window follows the app mode in Windows (Settings → Personalization → Colors) and switches automatically, no restart needed.
+
+The layout hint is always dark.</value></data>
+  <data name="HelpEnabled" xml:space="preserve"><value>Turn off to stop everything for a while: language switching, text correction, snippets and all other rules. KeyMend stays in the tray and the keys work as usual.
+
+The “Enabled” item in the tray icon menu does the same.</value></data>
+  <data name="HelpLog" xml:space="preserve"><value>The log is a set of text files, one per day, kept for 7 days. It contains only events, for example “converted 5 chars”. KeyMend never records what you type.
+
+Turn it on if something doesn't work: the log helps find the cause.</value></data>
+  <data name="HelpAutostart" xml:space="preserve"><value>KeyMend starts in the tray, without a window, when you sign in to Windows, with normal permissions. For this it adds one registry entry (shown in “About”).
+
+This switch is unavailable while “Start with Windows as administrator” is on.</value></data>
+  <data name="HelpAdmin" xml:space="preserve"><value>Windows protects programs that run as administrator: an ordinary program can't switch the language or fix text in them. For example, Task Manager or the Registry Editor.
+
+If you turn this on, KeyMend starts with administrator rights and can work in all windows. Normal startup is turned off at the same time.
+
+Programs and scripts from your rules are still launched with normal permissions.</value></data>
+  <data name="HelpHintEnabled" xml:space="preserve"><value>When the language changes, a hint with the layout name briefly appears near the text cursor.
+
+It is shown for any change: keys from rules, Alt+Shift or the taskbar. The hint doesn't get in the way: you can click through it and it doesn't take input.</value></data>
+  <data name="HelpHintPosition" xml:space="preserve"><value>**Near the cursor, otherwise the mouse** — the hint appears next to the text cursor. Some browsers and consoles don't report where the cursor is; then the hint appears at the mouse pointer.
+
+**Always near the mouse** — the hint always appears at the mouse pointer.</value></data>
+  <data name="HelpHintDuration" xml:space="preserve"><value>How many milliseconds the hint stays on screen: from 200 to 5000 (1000 ms is one second).</value></data>
+  <data name="HelpHintOnlyOwn" xml:space="preserve"><value>The hint appears only if KeyMend itself switched the language. There will be no hint when you switch with Alt+Shift, Win+Space or from the taskbar.</value></data>
+  <data name="HelpRulesLead" xml:space="preserve"><value>Rules let you switch the language, fix text, launch a program or put the computer to sleep with a key press. A rule can have several steps; they run in order.
+
+Rules don't work in programs from “Exclusions”, or in windows that run as administrator while KeyMend itself runs with normal permissions.</value></data>
+  <data name="HelpKeys" xml:space="preserve"><value>Click “Record”, then press the keys the rule should react to. There are three kinds:
+
+**A single modifier key.** For example, right Ctrl. The rule runs when you press and immediately release only that key.
+
+**Several modifiers together.** For example, right Ctrl and Shift. You can press them in any order. If during recording you hold one key and, without releasing it, press a second one, you get a “hold Ctrl + Shift” rule: it runs only when Ctrl is already held and you press Shift.
+
+**A combination with a regular key.** For example, Ctrl+Alt+K or F13. The rule runs as soon as you press the combination.
+
+Left and right Ctrl, Shift and Alt are different keys. You can't save a combination that is already used by another rule, or a Windows system shortcut (for example, Alt+Tab).</value></data>
+  <data name="HelpTime" xml:space="preserve"><value>**Single** — the rule runs if you release the keys within this time. If you held them longer, the key was needed for something else, for example Ctrl+C, and the rule doesn't run.
+
+**Double** — the second press must come within this time.
+
+If the same keys have both a single and a double rule, the single one waits to see whether a second press follows, and runs with that delay.</value></data>
+  <data name="HelpWhere" xml:space="preserve"><value>**In all programs** — everywhere except the programs in the “Exclusions” section.
+
+**Only in selected programs** — only in windows of the selected programs. The name is the program's file name, for example chrome.exe (you can see it in Task Manager on the “Details” tab).
+
+You can assign different rules to the same keys for different programs.</value></data>
+  <data name="HelpSwitchHow" xml:space="preserve"><value>**Alternate between two languages** — each press switches to the other language of the pair; if the current language isn't in the pair, the first one is selected.
+
+**Always switch to one language** — for example, English before typing a password.</value></data>
+  <data name="HelpCorrectWhat" xml:space="preserve"><value>Fixes text typed in the wrong layout.
+
+**Selected text** — select the text and press the keys.
+**Up to the start of the line** — no selection needed: KeyMend picks up the text from the cursor back to the start of the line.
+
+For example, “Ghbdtn? rfr ltkf&amp;” becomes “Привет, как дела?”. Press the keys again to undo the fix; Ctrl+Z undoes it too.</value></data>
+  <data name="HelpCorrectLanguages" xml:space="preserve"><value>Which layouts to convert between. KeyMend checks which layout has more letters in the text and converts to the other layout of the pair. For example, “ghbdtn” has more English letters, so you get “привет”.
+
+If both layouts have the same number of letters, the text is considered typed in the current layout and is converted to the other one.</value></data>
+  <data name="HelpCorrectSwitchAfter" xml:space="preserve"><value>When the text is fixed, KeyMend switches to the language it is now written in and shows the layout hint. You can keep typing right away.
+
+Turn it off if you want to switch the language yourself.</value></data>
+  <data name="HelpCorrectMax" xml:space="preserve"><value>Protects against accidentally converting a large block of text: if there is more text, KeyMend leaves it alone. From 10 to 1,000,000 characters.</value></data>
+  <data name="HelpLaunchFile" xml:space="preserve"><value>A program or script: .exe, .ps1, .cmd, .bat. You can specify:
+**a full path** — C:\Tools\app.exe;
+**a path inside the KeyMend scripts folder** — tools\x.ps1; such a rule moves to another computer together with the settings;
+**a Windows program name** — notepad.exe.
+
+Programs and scripts are launched with normal permissions, even if KeyMend runs as administrator.</value></data>
+  <data name="HelpLaunchType" xml:space="preserve"><value>Chosen by the file extension. For example, backup.bat gets “Batch file (.cmd, .bat)”, and .ps1 gets “PowerShell 7”.
+
+PowerShell scripts are launched with the -ExecutionPolicy Bypass parameter.</value></data>
+  <data name="HelpLaunchArgs" xml:space="preserve"><value>What to pass to the program after the file name, as on the command line. For example, /SetOrientation 1 90. Put paths with spaces in quotes: "C:\My Documents\report.txt".</value></data>
+  <data name="HelpLaunchWindow" xml:space="preserve"><value>**Normal** — as when launched by double-clicking.
+**Hidden** — for scripts that should work unnoticed.
+**Minimized** — straight to the taskbar.
+
+Some programs decide for themselves how to show their window.</value></data>
+  <data name="HelpLaunchRepeat" xml:space="preserve"><value>What to do if you press the keys while the program launched last time is still running:
+
+**Don't launch again** — do nothing and let it keep running. The right choice in most cases.
+
+**Launch another copy** — open a second copy next to the first.
+
+**Close it and launch again** — stop the previous one and start over.</value></data>
+  <data name="HelpLaunchWait" xml:space="preserve"><value>The next step of the rule starts only after the program closes. If it ends with an error, a notification appears and the remaining steps don't run.</value></data>
+  <data name="HelpLaunchWorkDir" xml:space="preserve"><value>The folder where the program looks for files given without a full path. For example, a script saves report.txt — with the working folder D:\Reports the file ends up there.
+
+Empty — the file's own folder; that is usually enough.</value></data>
+  <data name="HelpPowerAction" xml:space="preserve"><value>**Sleep** — the computer goes to sleep, everything stays in memory.
+**Hibernate** — everything is saved to disk and the computer turns off; hibernation must be turned on in Windows.
+**Shut down** — the computer turns off.
+**Restart** — the computer restarts.
+**Lock** — shows the sign-in screen; programs keep running.
+**Sign out** — all programs close.</value></data>
+  <data name="HelpPowerWhen" xml:space="preserve"><value>**Now** — immediately.
+
+**In** — sets a timer from 1 minute to 24 hours; a new timer replaces the previous one. A minute before it fires, a countdown with a “Cancel” button appears. You can also cancel the timer in the tray icon menu.</value></data>
+  <data name="HelpPowerCountdown" xml:space="preserve"><value>Before shutting down or restarting, a window with a 10-second countdown and a “Cancel” button appears — in case the keys were pressed by accident.</value></data>
+  <data name="HelpPress" xml:space="preserve"><value>Which keys to press in the active window, for example Ctrl+Enter, Alt+F4 or Win+D. Other KeyMend rules don't react to key presses made by KeyMend itself.</value></data>
+  <data name="HelpDelay" xml:space="preserve"><value>Wait before the next step, for example until a program window opens. From 0 to 60,000 ms (one minute).</value></data>
+  <data name="HelpInsertHow" xml:space="preserve"><value>**Type it** — KeyMend types the text as if from the keyboard. Works almost everywhere, but long text is typed noticeably slower.
+
+**Via the clipboard** — fast for any text; the previous clipboard contents are restored afterward.</value></data>
+  <data name="HelpInsertNewline" xml:space="preserve"><value>How KeyMend types line breaks from the “Text” field.
+
+In chats and messengers Enter often sends the message right away: if the text has a line break, the half-typed text may be sent too early.
+
+**Shift+Enter** breaks the line without sending.
+**Enter** — for programs where Shift+Enter doesn't work.</value></data>
+  <data name="HelpServiceAction" xml:space="preserve"><value>**Pause or resume KeyMend** — turn all features off or back on, like “Enabled” in the tray icon menu.
+**Open settings** — open the KeyMend settings window.
+**Cancel power timer** — cancel a timed sleep or shutdown.</value></data>
+  <data name="HelpSnipLead" xml:space="preserve"><value>KeyMend remembers the last keys you pressed. When they match an abbreviation, it erases the abbreviation and inserts the text.
+
+An abbreviation works in any layout: for example, “gm ” and “пь ” are the same thing. It's handy to end an abbreviation with a space so it doesn't fire inside words.
+
+Snippets don't work in the KeyMend settings window.</value></data>
+  <data name="HelpSnipBuffer" xml:space="preserve"><value>How many recent key presses KeyMend keeps to recognize an abbreviation (20–1000). What you type is kept only in memory and is erased when you switch windows, click the mouse, or press Enter or Esc.</value></data>
+  <data name="HelpSnipKeys" xml:space="preserve"><value>The letters, digits, symbols and space you type. KeyMend remembers keys, not letters, so the abbreviation is shown nearby as it looks in the other layout. For example, “дд ” and “ll ”.</value></data>
+  <data name="HelpSnipSecret" xml:space="preserve"><value>For passwords and other secrets. The text is stored encrypted by Windows (it can be read only under your user account); only a reference stays in the settings file.
+
+A secret is inserted only via the clipboard, and the previous clipboard contents are restored afterward.</value></data>
+  <data name="HelpSnipAfter" xml:space="preserve"><value>What to press after the text is inserted, for example Ctrl+Enter to send a message.</value></data>
+  <data name="HelpExclLead" xml:space="preserve"><value>Programs where KeyMend should behave differently: for example, games or remote desktop with their own key combinations. The checkboxes in a row show what still works in that program; with no checkboxes KeyMend does nothing in it.
+
+A program name is its file name, for example mstsc.exe.</value></data>
+  <data name="LaunchFailed" xml:space="preserve"><value>Rule “{0}”: couldn't launch the program.</value></data>
+  <data name="LaunchRejected" xml:space="preserve"><value>Rule “{0}”: {1}.</value></data>
+  <data name="LaunchReasonNoFile" xml:space="preserve"><value>the step has no file</value></data>
+  <data name="LaunchReasonFileMissing" xml:space="preserve"><value>the file wasn't found</value></data>
+  <data name="LaunchReasonWorkDirMissing" xml:space="preserve"><value>the working folder wasn't found</value></data>
+  <data name="LaunchReasonOutsideScripts" xml:space="preserve"><value>the relative path leaves the scripts folder</value></data>
+  <data name="LaunchReasonNoPwsh" xml:space="preserve"><value>PowerShell 7 (pwsh.exe) wasn't found</value></data>
+  <data name="LaunchReasonBad" xml:space="preserve"><value>invalid launch arguments</value></data>
+  <data name="LaunchExitCode" xml:space="preserve"><value>Rule “{0}”: the program exited with code {1}.</value></data>
+  <data name="NotifyHibernateOff" xml:space="preserve"><value>Hibernation is turned off in Windows.</value></data>
+  <data name="PowerCountdownShutdown" xml:space="preserve"><value>The computer will shut down in {0} s.</value></data>
+  <data name="PowerCountdownRestart" xml:space="preserve"><value>The computer will restart in {0} s.</value></data>
+  <data name="PowerNameSleep" xml:space="preserve"><value>sleep</value></data>
+  <data name="PowerNameHibernate" xml:space="preserve"><value>hibernate</value></data>
+  <data name="PowerNameShutdown" xml:space="preserve"><value>shut down</value></data>
+  <data name="PowerNameRestart" xml:space="preserve"><value>restart</value></data>
+  <data name="PowerNameLock" xml:space="preserve"><value>lock</value></data>
+  <data name="PowerNameSignOut" xml:space="preserve"><value>sign out</value></data>
+  <data name="PowerTimerSet" xml:space="preserve"><value>Timer set: {0} in {1} min, at {2}. Cancel it from the tray icon menu.</value></data>
+  <data name="PowerSoon" xml:space="preserve"><value>{0} in {1} s.</value></data>
+  <data name="PowerFailed" xml:space="preserve"><value>Couldn't perform the action: {0}.</value></data>
+  <data name="PowerTimerCancelled" xml:space="preserve"><value>Power timer cancelled.</value></data>
+  <data name="PowerTimerAt" xml:space="preserve"><value>{0} at {1} (in {2} min)</value></data>
+  <data name="PowerTimerSoon" xml:space="preserve"><value>{0} at {1} (in less than a minute)</value></data>
+  <data name="AppAdminRunning" xml:space="preserve"><value>KeyMend is already running as administrator. Close it from the tray and start it again.</value></data>
+  <data name="ErrClipboard" xml:space="preserve"><value>Couldn't copy to the clipboard.</value></data>
+  <data name="ErrOpenFolder" xml:space="preserve"><value>Couldn't open the folder.</value></data>
+  <data name="ErrHook" xml:space="preserve"><value>Couldn't install the keyboard hook.</value></data>
+  <data name="ErrSecretsSave" xml:space="preserve"><value>Couldn't save the secrets to the encrypted store.</value></data>
+  <data name="ErrSecretsPlain" xml:space="preserve"><value>The secrets were saved, but settings.json couldn't be rewritten: delete the plain text manually.</value></data>
+  <data name="ErrOpenDataFolder" xml:space="preserve"><value>Couldn't open the data folder.</value></data>
+  <data name="ErrOpenSettingsFile" xml:space="preserve"><value>Couldn't open settings.json.</value></data>
+  <data name="ErrAutostart" xml:space="preserve"><value>Couldn't change the startup setting.</value></data>
+  <data name="SettingsSkipped" xml:space="preserve"><value>settings.json: rules skipped — {0} (see the log for details).</value></data>
+  <data name="SettingsRejected" xml:space="preserve"><value>settings.json wasn't applied, the previous settings are in use. {0}</value></data>
+  <data name="AdminAutostartCaption" xml:space="preserve"><value>Start with Windows as administrator</value></data>
+  <data name="AdminAutostartAsk" xml:space="preserve"><value>This will:
+• copy the program to C:\Program Files\KeyMend\&lt;your name&gt;;
+• create a Task Scheduler task that starts this copy with administrator rights when you sign in to Windows, without a UAC prompt;
+• turn off normal startup.
+
+Windows will ask for confirmation (UAC). Continue?</value></data>
+  <data name="AdminAutostartInstallFailed" xml:space="preserve"><value>Couldn't turn on starting with Windows as administrator. See the log for details.</value></data>
+  <data name="AdminAutostartDone" xml:space="preserve"><value>Done. Start KeyMend as administrator now?
+This copy will close.</value></data>
+  <data name="AdminAutostartRemoveAsk" xml:space="preserve"><value>Turn off starting with Windows as administrator? The task and the copy in Program Files will be removed (UAC is required).</value></data>
+  <data name="AdminAutostartRemoveFailed" xml:space="preserve"><value>Couldn't turn off starting with Windows as administrator. See the log for details.</value></data>
+  <data name="CountdownCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="CountdownLeft" xml:space="preserve"><value>Time left: {0} s</value></data>
+  <data name="DefaultRuleLang" xml:space="preserve"><value>Language</value></data>
+  <data name="DefaultRuleLangWork" xml:space="preserve"><value>Language (work)</value></data>
+  <data name="DefaultRuleFixSelection" xml:space="preserve"><value>Fix selection</value></data>
+  <data name="DefaultRuleFixLine" xml:space="preserve"><value>Fix up to the start of the line</value></data>
+  <data name="TransferGroupSave" xml:space="preserve"><value>Save</value></data>
+  <data name="TransferGroupLoad" xml:space="preserve"><value>Load</value></data>
+  <data name="TransferGroupBackups" xml:space="preserve"><value>Backups</value></data>
+  <data name="TransferGroupFolder" xml:space="preserve"><value>Settings folder</value></data>
+  <data name="TransferSaveTitle" xml:space="preserve"><value>Save settings to a file</value></data>
+  <data name="TransferSaveHint" xml:space="preserve"><value>To move them to another computer</value></data>
+  <data name="TransferSaveButton" xml:space="preserve"><value>Save…</value></data>
+  <data name="HelpTransferSave" xml:space="preserve"><value>A .keymend file contains rules, snippets, exclusions, layout hint settings and the files from the scripts folder.
+
+Startup and administrator mode are not included: turn them on again on the other computer.</value></data>
+  <data name="TransferSecretsTitle" xml:space="preserve"><value>Include secrets</value></data>
+  <data name="TransferSecretsHint" xml:space="preserve"><value>Passwords from snippets, protected with your password</value></data>
+  <data name="HelpTransferSecrets" xml:space="preserve"><value>Without this checkbox, secret snippets go into the file without their text and will be turned off on the other computer.
+
+With the checkbox, the secret texts are encrypted with a password you make up here. Without it, the secrets in the file can't be opened.
+
+**The password is not stored anywhere.** If you forget it, the secrets from the file can't be recovered.</value></data>
+  <data name="TransferPasswordLabel" xml:space="preserve"><value>Password</value></data>
+  <data name="TransferPasswordRepeat" xml:space="preserve"><value>Repeat the password</value></data>
+  <data name="TransferPasswordShort" xml:space="preserve"><value>The password must be at least {0} characters long</value></data>
+  <data name="TransferPasswordMismatch" xml:space="preserve"><value>The passwords don't match</value></data>
+  <data name="TransferExportDone" xml:space="preserve"><value>File saved.</value></data>
+  <data name="TransferExportFailed" xml:space="preserve"><value>Couldn't save the file. See the log for details.</value></data>
+  <data name="TransferExportTooLarge" xml:space="preserve"><value>The files in the scripts folder don't fit into one transfer file.</value></data>
+  <data name="TransferSaveDialogTitle" xml:space="preserve"><value>Save settings</value></data>
+  <data name="TransferSaveFilter" xml:space="preserve"><value>KeyMend files (*.keymend)|*.keymend</value></data>
+  <data name="TransferOpenDialogTitle" xml:space="preserve"><value>Choose a settings file</value></data>
+  <data name="TransferOpenFilter" xml:space="preserve"><value>KeyMend files and settings (*.keymend;*.json)|*.keymend;*.json|All files (*.*)|*.*</value></data>
+  <data name="TransferLoadTitle" xml:space="preserve"><value>Load settings from a file</value></data>
+  <data name="TransferLoadHint" xml:space="preserve"><value>Your current settings are saved to a backup first</value></data>
+  <data name="TransferLoadButton" xml:space="preserve"><value>Choose file…</value></data>
+  <data name="HelpTransferLoad" xml:space="preserve"><value>You can load a .keymend file or a plain settings.json, for example the starter set.
+
+The file is checked in full first. If it is damaged or was created by a newer version of KeyMend, nothing changes.</value></data>
+  <data name="TransferFileSummary" xml:space="preserve"><value>Rules: {0} · snippets: {1} · exclusions: {2}</value></data>
+  <data name="TransferModeReplace" xml:space="preserve"><value>Replace current</value></data>
+  <data name="TransferModeMerge" xml:space="preserve"><value>Add to current</value></data>
+  <data name="HelpTransferMode" xml:space="preserve"><value>**Replace current** — the settings from the file fully take the place of yours: general settings, rules, snippets, exclusions. Script files from the archive overwrite yours with the same names.
+
+**Add to current** — whatever you don't have is added to yours. General settings and script files with the same names stay yours, and identical items aren't duplicated.
+
+If the keys of a rule or snippet match yours, KeyMend asks which one to keep.</value></data>
+  <data name="TransferSecretsPassword" xml:space="preserve"><value>Password for secrets</value></data>
+  <data name="TransferSecretsPasswordHint" xml:space="preserve"><value>Empty — load without secrets</value></data>
+  <data name="TransferConflictsTitle" xml:space="preserve"><value>Key conflicts</value></data>
+  <data name="TransferConflictRule" xml:space="preserve"><value>The rule “{0}” from the file uses the same keys as yours: “{1}”</value></data>
+  <data name="TransferConflictSnippet" xml:space="preserve"><value>The snippet “{0}” from the file uses the same keys as yours: “{1}”</value></data>
+  <data name="TransferConflictExclusion" xml:space="preserve"><value>The exclusion for “{0}” from the file differs from yours</value></data>
+  <data name="TransferChoiceKeep" xml:space="preserve"><value>Keep current</value></data>
+  <data name="TransferChoiceTake" xml:space="preserve"><value>Take from file</value></data>
+  <data name="TransferCancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="TransferApply" xml:space="preserve"><value>Load</value></data>
+  <data name="TransferErrUnreadable" xml:space="preserve"><value>The file can't be read or isn't a KeyMend file.</value></data>
+  <data name="TransferErrMissingSettings" xml:space="preserve"><value>The file contains no settings.</value></data>
+  <data name="TransferErrBadSettings" xml:space="preserve"><value>The settings in the file are damaged.</value></data>
+  <data name="TransferErrNewer" xml:space="preserve"><value>The file was created by a newer version of KeyMend. Update the program.</value></data>
+  <data name="TransferErrBadSecrets" xml:space="preserve"><value>The secrets in the file are damaged.</value></data>
+  <data name="TransferErrUnexpected" xml:space="preserve"><value>The file contains extra or unsafe entries.</value></data>
+  <data name="TransferErrTooLarge" xml:space="preserve"><value>The file is too large.</value></data>
+  <data name="TransferFailWrongPassword" xml:space="preserve"><value>Wrong password. Nothing was changed.</value></data>
+  <data name="TransferFailBackup" xml:space="preserve"><value>Couldn't make a backup. Nothing was changed.</value></data>
+  <data name="TransferFailSecrets" xml:space="preserve"><value>Couldn't write the secrets. The settings weren't changed.</value></data>
+  <data name="TransferFailScripts" xml:space="preserve"><value>Couldn't write the script files. The settings weren't changed.</value></data>
+  <data name="TransferFailSettings" xml:space="preserve"><value>Couldn't write the settings.</value></data>
+  <data name="TransferFailBadBackup" xml:space="preserve"><value>The backup is damaged.</value></data>
+  <data name="TransferDoneAdded" xml:space="preserve"><value>Added — rules: {0}, snippets: {1}, exclusions: {2}.</value></data>
+  <data name="TransferDoneLoaded" xml:space="preserve"><value>Loaded — rules: {0}, snippets: {1}, exclusions: {2}.</value></data>
+  <data name="TransferDoneReplaced" xml:space="preserve"><value>Replaced from the file: {0}. Kept yours: {1}. Skipped as identical: {2}.</value></data>
+  <data name="TransferDoneNoSecret" xml:space="preserve"><value>Secret snippets without text: {0}. They are turned off.</value></data>
+  <data name="TransferDoneSkippedScripts" xml:space="preserve"><value>Script files not replaced because yours are different: {0}.</value></data>
+  <data name="TransferDoneMissing" xml:space="preserve"><value>Program files not found for these rules: {0}.</value></data>
+  <data name="TransferRestoreDone" xml:space="preserve"><value>Settings restored from the backup.</value></data>
+  <data name="TransferBackupsTitle" xml:space="preserve"><value>Backups before loading</value></data>
+  <data name="TransferBackupsHint" xml:space="preserve"><value>The last {0} are kept</value></data>
+  <data name="TransferBackupsNone" xml:space="preserve"><value>No backups yet</value></data>
+  <data name="TransferBackupRow" xml:space="preserve"><value>{0} · before loading {1}</value></data>
+  <data name="TransferBackupRowPlain" xml:space="preserve"><value>{0} · before restoring</value></data>
+  <data name="TransferRestoreButton" xml:space="preserve"><value>Restore</value></data>
+  <data name="TransferRestoreAskTitle" xml:space="preserve"><value>Restore from the backup?</value></data>
+  <data name="TransferRestoreAsk" xml:space="preserve"><value>Settings, secrets and scripts will return to their state as of {0}. The current state is also saved to a backup first.</value></data>
+  <data name="TransferFolderHint" xml:space="preserve"><value>Settings, secrets, scripts and backups</value></data>
+  <data name="TransferFolderOpen" xml:space="preserve"><value>Open folder</value></data>
+  <data name="TransferBusy" xml:space="preserve"><value>Please wait…</value></data>
+</root>

@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <!-- Нужно для [LibraryImport] и колбэка хука через указатель на функцию (SPEC 7.2) -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <!-- Значок exe: тот же многоразмерный ресурс доступен окну и трею (SPEC F10) -->
+    <ApplicationIcon>Assets\KeyMend.ico</ApplicationIcon>
+    <!-- Русский — основной язык строк в самой сборке, английский лежит в спутнике (SPEC F9) -->
+    <NeutralLanguage>ru</NeutralLanguage>
+    <!-- Нативные библиотеки WPF (PresentationNative, wpfgfx, PenImc, D3DCompiler) кладём внутрь single-file exe: без них он падает на старте (0xC000041D) -->
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Тесты проверяют внутренние типы: классы по умолчанию internal -->
+    <InternalsVisibleTo Include="KeyMend.Tests" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\*.ico" />
+  </ItemGroup>
+
+</Project>

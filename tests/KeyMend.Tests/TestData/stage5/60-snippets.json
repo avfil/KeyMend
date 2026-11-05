@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "theme": "System",
+  "wordBufferLimit": 200,
+  "indicator": { "enabled": true, "onlyOwnSwitch": false, "position": "Caret", "durationMs": 700 },
+  "rules": [
+    { "id": "lang", "name": "Язык", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RCtrl", "maxHoldMs": 150 },
+      "steps": [ { "kind": "SwitchLayout", "mode": "Pair", "pair": ["ru-RU", "en-US"] } ] },
+    { "id": "fix-selection", "name": "Исправить выделенное", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RShift", "maxHoldMs": 300 },
+      "steps": [ { "kind": "Correct", "scope": "Selection" } ] }
+  ],
+  "snippets": [
+    { "id": "dd",  "keys": "дд ",  "text": "Добрый день!",   "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "gm",  "keys": "gm ",  "text": "Good morning!" },
+    { "id": "multi", "keys": "ml ", "text": "First line\nSecond line" },
+    { "id": "sec1", "keys": "sec1 ", "secret": true, "text": "test-secret-1", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec3", "keys": "sec3 ", "secret": true, "text": "test-secret-3" },
+    { "id": "dd-short", "keys": "дд", "text": "Короткое" },
+    { "id": "dd-long", "keys": "дд ", "text": "Длинное" },
+    { "id": "note",  "keys": "note ",  "enabled": false, "text": "Note" },
+    { "id": "tit-twin", "keys": "тщеу ", "text": "Другая раскладка note" }
+  ],
+  "exclusions": []
+}

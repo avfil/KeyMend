@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "theme": "System",
+  "rules": [
+    {
+      "id": "lang",
+      "name": "Язык",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Tap",
+        "keys": "RCtrl",
+        "maxHoldMs": 150
+      },
+      "steps": [
+        {
+          "kind": "SwitchLayout",
+          "mode": "Pair",
+          "pair": [
+            "ru-RU",
+            "en-US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "slow",
+      "name": "Медленный скрипт",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Press",
+        "keys": "F13"
+      },
+      "steps": [
+        {
+          "kind": "Launch",
+          "type": "Cmd",
+          "file": "slow.cmd",
+          "window": "Minimized"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "exclusions": []
+}

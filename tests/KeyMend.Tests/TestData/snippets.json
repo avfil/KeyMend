@@ -1,0 +1,19 @@
+// Стартовый набор автозамены из SPEC F5.5. Вместо паролей — заглушки test-secret-N.
+{
+  "snippets": [
+    { "id": "dd",  "keys": "дд ",   "text": "Добрый день!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "gm",  "keys": "gm ",   "text": "Good morning!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sp",  "keys": "sp ",   "text": "Спасибо!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "th",  "keys": "th ",   "text": "Thank you!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "br", "keys": "br ",  "text": "Best regards", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "hi", "keys": "hi ",  "text": "Hello!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "yw", "keys": "yw ",   "text": "You're welcome!", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "done",  "keys": "done ",   "text": "Done", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "ok",  "keys": "ok ",   "text": "OK", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec1", "keys": "sec1 ",  "secret": true, "secretRef": "test-secret-1", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec2",  "keys": "sec2 ",   "secret": true, "secretRef": "test-secret-2", "after": [ { "kind": "Press", "keys": "Ctrl+Enter" } ] },
+    { "id": "sec3", "keys": "sec3 ",  "secret": true, "secretRef": "test-secret-3" },
+    { "id": "sec4", "keys": "sec4 ",  "secret": true, "secretRef": "test-secret-4" },
+    { "id": "note",  "keys": "note ",   "text": "Note" }
+  ]
+}

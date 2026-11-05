@@ -1,0 +1,79 @@
+{
+  "schemaVersion": 1,
+  "theme": "System",
+  "rules": [
+    {
+      "id": "lang",
+      "name": "Язык",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Tap",
+        "keys": "RCtrl",
+        "maxHoldMs": 150
+      },
+      "steps": [
+        {
+          "kind": "SwitchLayout",
+          "mode": "Pair",
+          "pair": [
+            "ru-RU",
+            "en-US"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "timer-sleep",
+      "name": "Сон через 2 мин",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Press",
+        "keys": "F13"
+      },
+      "steps": [
+        {
+          "kind": "Power",
+          "action": "Sleep",
+          "afterMinutes": 2
+        }
+      ]
+    },
+    {
+      "id": "timer-lock",
+      "name": "Блокировка через 30 мин",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Press",
+        "keys": "F14"
+      },
+      "steps": [
+        {
+          "kind": "Power",
+          "action": "Lock",
+          "afterMinutes": 30
+        }
+      ]
+    },
+    {
+      "id": "timer-cancel",
+      "name": "Отмена таймера",
+      "enabled": true,
+      "processes": [],
+      "trigger": {
+        "kind": "Press",
+        "keys": "F16"
+      },
+      "steps": [
+        {
+          "kind": "Service",
+          "action": "CancelPowerTimer"
+        }
+      ]
+    }
+  ],
+  "snippets": [],
+  "exclusions": []
+}

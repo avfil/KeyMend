@@ -1,0 +1,14 @@
+<Window x:Class="KeyMend.UI.Settings.ConfirmDialog" x:ClassModifier="internal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Width="440" SizeToContent="Height" ResizeMode="NoResize" ShowInTaskbar="False"
+        WindowStartupLocation="CenterOwner"
+        Background="{DynamicResource Km.Bg}" Foreground="{DynamicResource Km.Text}"
+        UseLayoutRounding="True" TextOptions.TextFormattingMode="Ideal"
+        PreviewKeyDown="OnKeyDown">
+    <StackPanel Margin="24,20,24,20">
+        <TextBlock x:Name="TitleText" FontSize="18" FontWeight="SemiBold" TextWrapping="Wrap"/>
+        <TextBlock x:Name="BodyText" Margin="0,10,0,0" TextWrapping="Wrap" Foreground="{DynamicResource Km.Text2}"/>
+        <StackPanel x:Name="Buttons" Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,22,0,0"/>
+    </StackPanel>
+</Window>

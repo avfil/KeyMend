@@ -1,0 +1,97 @@
+root = true
+
+[*]
+charset = utf-8
+end_of_line = crlf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 4
+
+[*.{csproj,props,targets,xml,json,yml,yaml}]
+indent_size = 2
+
+[*.cs]
+# --- Оформление ---
+csharp_style_namespace_declarations = file_scoped:warning
+csharp_new_line_before_open_brace = all
+csharp_prefer_braces = true:warning
+csharp_using_directive_placement = outside_namespace:warning
+dotnet_sort_system_directives_first = true
+csharp_style_var_for_built_in_types = true:suggestion
+csharp_style_var_when_type_is_apparent = true:suggestion
+csharp_style_expression_bodied_methods = when_on_single_line:suggestion
+csharp_style_prefer_primary_constructors = true:suggestion
+dotnet_style_readonly_field = true:warning
+dotnet_style_qualification_for_field = false:warning
+dotnet_style_qualification_for_property = false:warning
+dotnet_style_qualification_for_method = false:warning
+
+# --- Именование ---
+# Интерфейсы: IName
+dotnet_naming_rule.interfaces.symbols = interfaces
+dotnet_naming_rule.interfaces.style = prefix_i
+dotnet_naming_rule.interfaces.severity = warning
+dotnet_naming_symbols.interfaces.applicable_kinds = interface
+dotnet_naming_style.prefix_i.required_prefix = I
+dotnet_naming_style.prefix_i.capitalization = pascal_case
+
+# Приватные поля: _camelCase
+dotnet_naming_rule.private_fields.symbols = private_fields
+dotnet_naming_rule.private_fields.style = underscore_camel
+dotnet_naming_rule.private_fields.severity = warning
+dotnet_naming_symbols.private_fields.applicable_kinds = field
+dotnet_naming_symbols.private_fields.applicable_accessibilities = private, private_protected
+dotnet_naming_style.underscore_camel.required_prefix = _
+dotnet_naming_style.underscore_camel.capitalization = camel_case
+
+# Типы, методы, свойства, события: PascalCase
+dotnet_naming_rule.members.symbols = members
+dotnet_naming_rule.members.style = pascal
+dotnet_naming_rule.members.severity = warning
+dotnet_naming_symbols.members.applicable_kinds = class, struct, enum, delegate, method, property, event
+dotnet_naming_style.pascal.capitalization = pascal_case
+
+# --- Уровни правил ---
+dotnet_diagnostic.IDE0005.severity = warning   # лишние using
+dotnet_diagnostic.IDE0161.severity = warning   # file-scoped namespace
+dotnet_diagnostic.IDE0011.severity = warning   # фигурные скобки
+dotnet_diagnostic.IDE0044.severity = warning   # readonly-поля
+dotnet_diagnostic.IDE0055.severity = warning   # форматирование
+dotnet_diagnostic.CS1591.severity = warning    # нет XML-doc у public/protected (private и internal не проверяет)
+
+dotnet_diagnostic.IDE1006.severity = warning   # правила именования выше
+
+# Безопасность: всегда ошибка, и в Debug тоже.
+# Категорию задаём целиком, но AnalysisMode ставит уровни по номерам правил, а они важнее категории,
+# поэтому ключевые правила перечислены явно.
+dotnet_analyzer_diagnostic.category-Security.severity = error
+dotnet_diagnostic.CA2100.severity = error      # SQL из строк (конкатенация в SqlCommand)
+dotnet_diagnostic.CA3001.severity = error      # SQL-инъекция из внешнего ввода
+dotnet_diagnostic.CA3002.severity = error      # XSS
+dotnet_diagnostic.CA3003.severity = error      # path injection
+dotnet_diagnostic.CA3006.severity = error      # command injection
+dotnet_diagnostic.CA3075.severity = error      # небезопасная обработка XML (DTD)
+dotnet_diagnostic.CA2300.severity = error      # BinaryFormatter
+dotnet_diagnostic.CA2326.severity = error      # TypeNameHandling в Json.NET
+dotnet_diagnostic.CA5350.severity = error      # слабые алгоритмы (SHA1, TripleDES)
+dotnet_diagnostic.CA5351.severity = error      # сломанные алгоритмы (MD5, DES)
+dotnet_diagnostic.CA5359.severity = error      # отключена проверка сертификата
+dotnet_diagnostic.CA5364.severity = error      # устаревшие протоколы TLS
+dotnet_diagnostic.CA5394.severity = error      # Random для безопасности
+dotnet_diagnostic.CA5379.severity = error      # слабый KDF
+dotnet_diagnostic.CA5397.severity = error      # устаревшие SslProtocols
+
+# Надёжность и async
+dotnet_diagnostic.CA2007.severity = none       # ConfigureAwait: для приложений не нужен (для библиотек включить)
+dotnet_diagnostic.CA2016.severity = warning    # передавать CancellationToken дальше
+dotnet_diagnostic.CA1849.severity = warning    # синхронный вызов в async-методе
+dotnet_diagnostic.CA2000.severity = warning    # Dispose до потери ссылки
+dotnet_diagnostic.VSTHRD002.severity = warning # .Result / .Wait()
+dotnet_diagnostic.VSTHRD100.severity = warning # async void
+dotnet_diagnostic.VSTHRD111.severity = none    # ConfigureAwait (то же, что CA2007)
+dotnet_diagnostic.VSTHRD200.severity = none    # суффикс Async: на усмотрение проекта
+
+[tests/**.cs]
+dotnet_diagnostic.CA1707.severity = none       # подчёркивания в именах тестов
+dotnet_diagnostic.CA2000.severity = none

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "theme": "System",
+  "wordBufferLimit": 200,
+  "indicator": { "enabled": true, "onlyOwnSwitch": false, "position": "Caret", "durationMs": 700 },
+  "rules": [
+    { "id": "lang", "name": "Язык", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RCtrl", "maxHoldMs": 150 },
+      "steps": [ { "kind": "SwitchLayout", "mode": "Pair", "pair": ["ru-RU", "en-US"] } ] },
+    { "id": "fix-selection", "name": "Исправить выделенное", "enabled": true, "processes": [],
+      "trigger": { "kind": "Tap", "keys": "RShift", "maxHoldMs": 300 },
+      "steps": [ { "kind": "Correct", "scope": "Selection" } ] },
+    { "id": "chain", "name": "Цепочка: Блокнот, пауза, текст", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F13" },
+      "steps": [
+        { "kind": "Launch", "type": "Exe", "file": "notepad.exe" },
+        { "kind": "Delay", "ms": 700 },
+        { "kind": "InsertText", "text": "test-text-1", "insert": "Type", "newline": "ShiftEnter" },
+        { "kind": "Press", "keys": "Ctrl+A" }
+      ] },
+    { "id": "lock-timer", "name": "Блокировка через 2 мин", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F14" },
+      "steps": [ { "kind": "Power", "action": "Lock", "afterMinutes": 2 } ] },
+    { "id": "cancel-timer", "name": "Отменить таймер", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F15" },
+      "steps": [ { "kind": "Service", "action": "CancelPowerTimer" } ] },
+    { "id": "open-settings", "name": "Открыть настройки по F16", "enabled": true, "processes": [],
+      "trigger": { "kind": "Press", "keys": "F16" },
+      "steps": [ { "kind": "Service", "action": "OpenSettings" } ] }
+  ],
+  "snippets": [],
+  "exclusions": []
+}

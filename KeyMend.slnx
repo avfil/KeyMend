@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/KeyMend/KeyMend.csproj" />
+  <Project Path="tests/KeyMend.Tests/KeyMend.Tests.csproj" />
+</Solution>

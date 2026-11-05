@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype"><value>text/microsoft-resx</value></resheader>
+  <resheader name="version"><value>2.0</value></resheader>
+  <resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader>
+  <data name="WindowTitle" xml:space="preserve"><value>Настройки KeyMend</value></data>
+  <data name="WindowTitleAdmin" xml:space="preserve"><value>· администратор</value></data>
+  <data name="AppName" xml:space="preserve"><value>KeyMend</value></data>
+  <data name="SearchPlaceholder" xml:space="preserve"><value>Найти параметр</value></data>
+  <data name="SectionGeneral" xml:space="preserve"><value>Общие</value></data>
+  <data name="SectionRules" xml:space="preserve"><value>Правила</value></data>
+  <data name="SectionSnippets" xml:space="preserve"><value>Автозамена</value></data>
+  <data name="SectionHint" xml:space="preserve"><value>Подсказка раскладки</value></data>
+  <data name="SectionExclusions" xml:space="preserve"><value>Исключения</value></data>
+  <data name="SectionTransfer" xml:space="preserve"><value>Перенос</value></data>
+  <data name="SectionAbout" xml:space="preserve"><value>О программе</value></data>
+  <data name="StatusWorking" xml:space="preserve"><value>Работает · обычный режим</value></data>
+  <data name="StatusWorkingAdmin" xml:space="preserve"><value>Работает · от администратора</value></data>
+  <data name="StatusPaused" xml:space="preserve"><value>На паузе</value></data>
+  <data name="GroupAppearance" xml:space="preserve"><value>Внешний вид</value></data>
+  <data name="ThemeTitle" xml:space="preserve"><value>Тема</value></data>
+  <data name="ThemeDescription" xml:space="preserve"><value>Цвет окна настроек</value></data>
+  <data name="ThemeSystem" xml:space="preserve"><value>Как в Windows</value></data>
+  <data name="ThemeLight" xml:space="preserve"><value>Светлая</value></data>
+  <data name="ThemeDark" xml:space="preserve"><value>Тёмная</value></data>
+  <data name="LanguageTitle" xml:space="preserve"><value>Язык интерфейса</value></data>
+  <data name="LanguageDescription" xml:space="preserve"><value>Язык окна настроек, меню и уведомлений</value></data>
+  <data name="LanguageSystem" xml:space="preserve"><value>Как в Windows</value></data>
+  <data name="LanguageRussian" xml:space="preserve"><value>Русский</value></data>
+  <data name="LanguageEnglish" xml:space="preserve"><value>English</value></data>
+  <data name="HelpLanguage" xml:space="preserve"><value>Меняется сразу, без перезапуска.
+
+**Как в Windows** — русский, если Windows на русском, иначе английский. Журнал работы всегда на английском.</value></data>
+  <data name="GroupLinks" xml:space="preserve"><value>Связанные ссылки</value></data>
+  <data name="OpenSettingsFile" xml:space="preserve"><value>Открыть файл настроек</value></data>
+  <data name="TrayEnabled" xml:space="preserve"><value>Включено</value></data>
+  <data name="TraySettings" xml:space="preserve"><value>Настройки…</value></data>
+  <data name="TrayCancelTimer" xml:space="preserve"><value>Отменить таймер питания</value></data>
+  <data name="TrayAutostart" xml:space="preserve"><value>Автозапуск</value></data>
+  <data name="TrayAdminAutostart" xml:space="preserve"><value>Автозапуск от администратора</value></data>
+  <data name="TrayOpenDataFolder" xml:space="preserve"><value>Открыть папку данных</value></data>
+  <data name="TrayAbout" xml:space="preserve"><value>О программе</value></data>
+  <data name="TrayExit" xml:space="preserve"><value>Выход</value></data>
+  <data name="TrayTipAdmin" xml:space="preserve"><value>KeyMend · администратор</value></data>
+  <data name="TrayTipPaused" xml:space="preserve"><value>Пауза</value></data>
+  <data name="TriggerNotSet" xml:space="preserve"><value>Не задано</value></data>
+  <data name="TriggerRecord" xml:space="preserve"><value>Записать</value></data>
+  <data name="TriggerRerecord" xml:space="preserve"><value>Записать заново</value></data>
+  <data name="TriggerRecordingPrompt" xml:space="preserve"><value>Нажмите клавиши…</value></data>
+  <data name="TriggerCancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="TriggerRecordingNote" xml:space="preserve"><value>Пока идёт запись, правила KeyMend не срабатывают. Esc — отменить.</value></data>
+  <data name="TriggerHoldLabel" xml:space="preserve"><value>держать</value></data>
+  <data name="TriggerSingle" xml:space="preserve"><value>Одиночное</value></data>
+  <data name="TriggerDouble" xml:space="preserve"><value>Двойное</value></data>
+  <data name="TriggerKindName" xml:space="preserve"><value>Вид нажатия</value></data>
+  <data name="TriggerHoldFor" xml:space="preserve"><value>Отпустить за</value></data>
+  <data name="TriggerDoubleWithin" xml:space="preserve"><value>Второе нажатие в течение</value></data>
+  <data name="TriggerSecondsLeft" xml:space="preserve"><value>{0} с</value></data>
+  <data name="TriggerMs" xml:space="preserve"><value>мс</value></data>
+  <data name="TriggerOpenRule" xml:space="preserve"><value>Открыть это правило</value></data>
+  <data name="TriggerBusy" xml:space="preserve"><value>{0} уже занята правилом «{1}» {2}.</value></data>
+  <data name="TriggerSystem" xml:space="preserve"><value>{0} — системное сочетание Windows, его назначить нельзя.</value></data>
+  <data name="TriggerWindowsSwitch" xml:space="preserve"><value>{0} может заодно переключить язык в Windows. Сохранить можно</value></data>
+  <data name="TriggerDelaySingle" xml:space="preserve"><value>Сработает через {0} мс: на {1} есть другое правило</value></data>
+  <data name="TriggerDelayDouble" xml:space="preserve"><value>Одиночное правило «{1}» на этих клавишах будет срабатывать через {0} мс</value></data>
+  <data name="TriggerEverywhere" xml:space="preserve"><value>во всех программах</value></data>
+  <data name="TriggerInPrograms" xml:space="preserve"><value>только в {0}</value></data>
+  <data name="RulesLead" xml:space="preserve"><value>Нажимаете клавиши — KeyMend выполняет действие</value></data>
+  <data name="RuleGroupLanguage" xml:space="preserve"><value>Переключение языка</value></data>
+  <data name="RuleGroupCorrection" xml:space="preserve"><value>Исправление ввода</value></data>
+  <data name="RuleGroupLaunch" xml:space="preserve"><value>Запуск программ</value></data>
+  <data name="RuleGroupPower" xml:space="preserve"><value>Питание</value></data>
+  <data name="RuleGroupOther" xml:space="preserve"><value>Другое</value></data>
+  <data name="RuleFilterAll" xml:space="preserve"><value>Все</value></data>
+  <data name="RuleFilterEnabled" xml:space="preserve"><value>Включённые</value></data>
+  <data name="RuleFilterDisabled" xml:space="preserve"><value>Выключенные</value></data>
+  <data name="RulesSearch" xml:space="preserve"><value>Поиск по названию или клавише</value></data>
+  <data name="RulesAdd" xml:space="preserve"><value>Добавить правило</value></data>
+  <data name="RulesEmpty" xml:space="preserve"><value>Нет правил по такому условию</value></data>
+  <data name="ColEnabled" xml:space="preserve"><value>Вкл.</value></data>
+  <data name="ColName" xml:space="preserve"><value>Название</value></data>
+  <data name="ColKeys" xml:space="preserve"><value>Клавиши</value></data>
+  <data name="ColAction" xml:space="preserve"><value>Что делает</value></data>
+  <data name="ColWhere" xml:space="preserve"><value>Где работает</value></data>
+  <data name="SummaryNoSteps" xml:space="preserve"><value>Ничего не делает</value></data>
+  <data name="SummaryMore" xml:space="preserve"><value>{0} и ещё {1}</value></data>
+  <data name="SummaryLanguagePair" xml:space="preserve"><value>{0} ⇄ {1}</value></data>
+  <data name="SummaryLanguageSpecific" xml:space="preserve"><value>Включить: {0}</value></data>
+  <data name="SummaryCorrectSelection" xml:space="preserve"><value>Исправить выделенный текст</value></data>
+  <data name="SummaryCorrectLine" xml:space="preserve"><value>Исправить текст до начала строки</value></data>
+  <data name="SummaryLaunch" xml:space="preserve"><value>Запустить {0}</value></data>
+  <data name="SummaryPress" xml:space="preserve"><value>Нажать {0}</value></data>
+  <data name="SummaryDelay" xml:space="preserve"><value>Пауза {0} мс</value></data>
+  <data name="SummaryInsert" xml:space="preserve"><value>Вставить текст</value></data>
+  <data name="SummaryServicePause" xml:space="preserve"><value>Пауза KeyMend вкл/выкл</value></data>
+  <data name="SummaryServiceOpen" xml:space="preserve"><value>Открыть настройки</value></data>
+  <data name="SummaryServiceCancelTimer" xml:space="preserve"><value>Отменить таймер питания</value></data>
+  <data name="PowerSleep" xml:space="preserve"><value>Сон</value></data>
+  <data name="PowerHibernate" xml:space="preserve"><value>Гибернация</value></data>
+  <data name="PowerShutdown" xml:space="preserve"><value>Выключение</value></data>
+  <data name="PowerRestart" xml:space="preserve"><value>Перезагрузка</value></data>
+  <data name="PowerLock" xml:space="preserve"><value>Блокировка</value></data>
+  <data name="PowerSignOut" xml:space="preserve"><value>Выход из системы</value></data>
+  <data name="SummaryPowerNow" xml:space="preserve"><value>{0} сейчас</value></data>
+  <data name="SummaryPowerAfter" xml:space="preserve"><value>{0} через {1} мин</value></data>
+  <data name="WhereEverywhere" xml:space="preserve"><value>везде</value></data>
+  <data name="WhereOnly" xml:space="preserve"><value>только в {0}</value></data>
+  <data name="WhereOnlyMore" xml:space="preserve"><value>только в {0} +{1}</value></data>
+  <data name="RuleMenuEdit" xml:space="preserve"><value>Изменить</value></data>
+  <data name="RuleMenuDuplicate" xml:space="preserve"><value>Дублировать</value></data>
+  <data name="RuleMenuDelete" xml:space="preserve"><value>Удалить</value></data>
+  <data name="RuleCopyName" xml:space="preserve"><value>{0} (копия)</value></data>
+  <data name="RuleMore" xml:space="preserve"><value>Ещё</value></data>
+  <data name="RuleDelayBadge" xml:space="preserve"><value>через {0} мс</value></data>
+  <data name="RuleToggleLabel" xml:space="preserve"><value>{0}: включено</value></data>
+  <data name="RuleSaveFailed" xml:space="preserve"><value>Не удалось сохранить настройки. Проверьте, что файл не занят другой программой.</value></data>
+  <data name="RuleNotEnabled" xml:space="preserve"><value>Правило «{0}» не включено. {1}</value></data>
+  <data name="DeleteRuleTitle" xml:space="preserve"><value>Удалить правило?</value></data>
+  <data name="DeleteRuleText" xml:space="preserve"><value>Правило «{0}» будет удалено.</value></data>
+  <data name="DialogDelete" xml:space="preserve"><value>Удалить</value></data>
+  <data name="DialogCancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="AddRuleLanguage" xml:space="preserve"><value>Переключение языка</value></data>
+  <data name="AddRuleCorrection" xml:space="preserve"><value>Исправление ввода</value></data>
+  <data name="LanguageNotInstalled" xml:space="preserve"><value>{0} (не установлен)</value></data>
+  <data name="EditorNewRule" xml:space="preserve"><value>Новое правило</value></data>
+  <data name="EditorName" xml:space="preserve"><value>Название</value></data>
+  <data name="EditorEnabled" xml:space="preserve"><value>Включено</value></data>
+  <data name="SwitchOn" xml:space="preserve"><value>Вкл.</value></data>
+  <data name="SwitchOff" xml:space="preserve"><value>Откл.</value></data>
+  <data name="EditorKeys" xml:space="preserve"><value>Клавиши</value></data>
+  <data name="EditorWhere" xml:space="preserve"><value>Где работает</value></data>
+  <data name="WhereAll" xml:space="preserve"><value>Во всех программах</value></data>
+  <data name="WhereSelected" xml:space="preserve"><value>Только в выбранных</value></data>
+  <data name="ProgramPlaceholder" xml:space="preserve"><value>Имя программы, например chrome.exe</value></data>
+  <data name="ProgramAdd" xml:space="preserve"><value>Добавить</value></data>
+  <data name="ProgramRemove" xml:space="preserve"><value>Убрать {0}</value></data>
+  <data name="EditorSteps" xml:space="preserve"><value>Что делает</value></data>
+  <data name="EditorStepsHint" xml:space="preserve"><value>шаги выполняются по порядку</value></data>
+  <data name="StepSwitchLayout" xml:space="preserve"><value>Переключить язык</value></data>
+  <data name="StepCorrect" xml:space="preserve"><value>Исправить раскладку текста</value></data>
+  <data name="StepLaunch" xml:space="preserve"><value>Запустить программу</value></data>
+  <data name="StepPower" xml:space="preserve"><value>Питание</value></data>
+  <data name="StepPress" xml:space="preserve"><value>Нажать клавишу</value></data>
+  <data name="StepDelay" xml:space="preserve"><value>Пауза</value></data>
+  <data name="StepInsert" xml:space="preserve"><value>Вставить текст</value></data>
+  <data name="StepService" xml:space="preserve"><value>Служебное действие</value></data>
+  <data name="SwitchHow" xml:space="preserve"><value>Как переключать</value></data>
+  <data name="SwitchPair" xml:space="preserve"><value>По очереди между двумя языками</value></data>
+  <data name="SwitchOne" xml:space="preserve"><value>Всегда включать один язык</value></data>
+  <data name="SwitchHintLabel" xml:space="preserve"><value>Подсказка раскладки</value></data>
+  <data name="SwitchHintText" xml:space="preserve"><value>Показывается при смене языка</value></data>
+  <data name="SwitchHintLink" xml:space="preserve"><value>Настроить</value></data>
+  <data name="CorrectWhat" xml:space="preserve"><value>Что исправлять</value></data>
+  <data name="CorrectSelection" xml:space="preserve"><value>Выделенный текст</value></data>
+  <data name="CorrectLine" xml:space="preserve"><value>До начала строки</value></data>
+  <data name="CorrectLanguages" xml:space="preserve"><value>Языки</value></data>
+  <data name="CorrectSwitchAfter" xml:space="preserve"><value>Переключить язык после исправления</value></data>
+  <data name="CorrectMax" xml:space="preserve"><value>Не больше</value></data>
+  <data name="CorrectChars" xml:space="preserve"><value>символов</value></data>
+  <data name="ErrNameEmpty" xml:space="preserve"><value>Введите название правила</value></data>
+  <data name="ErrTriggerMissing" xml:space="preserve"><value>Запишите клавиши</value></data>
+  <data name="ErrNoPrograms" xml:space="preserve"><value>Добавьте хотя бы одну программу или выберите «Во всех программах»</value></data>
+  <data name="ErrSameLanguages" xml:space="preserve"><value>Выберите два разных языка</value></data>
+  <data name="DeleteRule" xml:space="preserve"><value>Удалить правило</value></data>
+  <data name="EditorSave" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="UnsavedTitle" xml:space="preserve"><value>Сохранить изменения?</value></data>
+  <data name="UnsavedText" xml:space="preserve"><value>В правиле «{0}» есть несохранённые изменения.</value></data>
+  <data name="UnsavedSave" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="UnsavedDiscard" xml:space="preserve"><value>Не сохранять</value></data>
+  <data name="RuleFilterState" xml:space="preserve"><value>Показывать правила</value></data>
+  <data name="StepUp" xml:space="preserve"><value>Выше</value></data>
+  <data name="StepDown" xml:space="preserve"><value>Ниже</value></data>
+  <data name="StepRemove" xml:space="preserve"><value>Удалить шаг</value></data>
+  <data name="StepAdd" xml:space="preserve"><value>Добавить шаг</value></data>
+  <data name="ErrNoSteps" xml:space="preserve"><value>Добавьте хотя бы один шаг</value></data>
+  <data name="ErrNoFile" xml:space="preserve"><value>Укажите файл программы</value></data>
+  <data name="ErrBadFile" xml:space="preserve"><value>Файл указан неверно: без кавычек, а путь без диска — только внутри папки скриптов</value></data>
+  <data name="ErrNoKeys" xml:space="preserve"><value>Укажите клавишу, например Ctrl+Enter</value></data>
+  <data name="ErrNoText" xml:space="preserve"><value>Введите текст для вставки</value></data>
+  <data name="LaunchFile" xml:space="preserve"><value>Файл</value></data>
+  <data name="LaunchBrowse" xml:space="preserve"><value>Обзор…</value></data>
+  <data name="LaunchType" xml:space="preserve"><value>Чем запускать</value></data>
+  <data name="LaunchTypeExe" xml:space="preserve"><value>Программа (.exe)</value></data>
+  <data name="LaunchTypePwsh" xml:space="preserve"><value>PowerShell 7 (.ps1)</value></data>
+  <data name="LaunchTypePowerShell" xml:space="preserve"><value>Windows PowerShell 5.1 (.ps1)</value></data>
+  <data name="LaunchTypeCmd" xml:space="preserve"><value>Пакетный файл (.cmd, .bat)</value></data>
+  <data name="LaunchArgs" xml:space="preserve"><value>Параметры</value></data>
+  <data name="LaunchWindow" xml:space="preserve"><value>Окно программы</value></data>
+  <data name="LaunchWindowNormal" xml:space="preserve"><value>Обычное</value></data>
+  <data name="LaunchWindowHidden" xml:space="preserve"><value>Скрытое</value></data>
+  <data name="LaunchWindowMin" xml:space="preserve"><value>Свёрнутое</value></data>
+  <data name="LaunchRepeat" xml:space="preserve"><value>Если уже запущена</value></data>
+  <data name="LaunchRepeatIgnore" xml:space="preserve"><value>Не запускать снова</value></data>
+  <data name="LaunchRepeatAnother" xml:space="preserve"><value>Запустить ещё одну</value></data>
+  <data name="LaunchRepeatStop" xml:space="preserve"><value>Закрыть и запустить заново</value></data>
+  <data name="LaunchWait" xml:space="preserve"><value>Ждать завершения</value></data>
+  <data name="LaunchWorkDir" xml:space="preserve"><value>Рабочая папка</value></data>
+  <data name="LaunchWorkDirHint" xml:space="preserve"><value>Папка файла</value></data>
+  <data name="PowerAction" xml:space="preserve"><value>Действие</value></data>
+  <data name="PowerWhen" xml:space="preserve"><value>Когда</value></data>
+  <data name="PowerNow" xml:space="preserve"><value>Сейчас</value></data>
+  <data name="PowerAfter" xml:space="preserve"><value>Через</value></data>
+  <data name="PowerMinutes" xml:space="preserve"><value>мин</value></data>
+  <data name="PowerCountdown" xml:space="preserve"><value>Отсчёт 10 с с кнопкой «Отменить»</value></data>
+  <data name="PowerHibernateOff" xml:space="preserve"><value>Гибернация выключена в Windows: шаг ничего не сделает, пока её не включить</value></data>
+  <data name="PressKeys" xml:space="preserve"><value>Клавиши</value></data>
+  <data name="PressChoose" xml:space="preserve"><value>Выбрать ▾</value></data>
+  <data name="PressMenuArrows" xml:space="preserve"><value>Стрелки</value></data>
+  <data name="PressMenuFKeys" xml:space="preserve"><value>F1–F24</value></data>
+  <data name="PressPlaceholder" xml:space="preserve"><value>например, Ctrl+Enter</value></data>
+  <data name="DelayMs" xml:space="preserve"><value>Пауза</value></data>
+  <data name="DelayUnit" xml:space="preserve"><value>мс</value></data>
+  <data name="InsertText" xml:space="preserve"><value>Текст</value></data>
+  <data name="InsertHow" xml:space="preserve"><value>Как вставлять</value></data>
+  <data name="InsertType" xml:space="preserve"><value>Печатать</value></data>
+  <data name="InsertClipboard" xml:space="preserve"><value>Через буфер обмена</value></data>
+  <data name="InsertNewline" xml:space="preserve"><value>Перенос строки в тексте</value></data>
+  <data name="NewlineShiftEnter" xml:space="preserve"><value>Shift+Enter</value></data>
+  <data name="NewlineEnter" xml:space="preserve"><value>Enter</value></data>
+  <data name="InsertSecret" xml:space="preserve"><value>Секретный текст: правится в разделе «Автозамена»</value></data>
+  <data name="ServiceAction" xml:space="preserve"><value>Действие</value></data>
+  <data name="AddRuleLaunch" xml:space="preserve"><value>Запуск программ</value></data>
+  <data name="AddRulePower" xml:space="preserve"><value>Питание</value></data>
+  <data name="LaunchFileFilter" xml:space="preserve"><value>Программы и скрипты (*.exe;*.ps1;*.cmd;*.bat)|*.exe;*.ps1;*.cmd;*.bat|Все файлы (*.*)|*.*</value></data>
+  <data name="SnipLead" xml:space="preserve"><value>Наберите сокращение — KeyMend заменит его текстом</value></data>
+  <data name="SnipBufferTitle" xml:space="preserve"><value>Память набора</value></data>
+  <data name="SnipBufferHint" xml:space="preserve"><value>Сколько последних нажатий помнит автозамена</value></data>
+  <data name="SnipBufferUnit" xml:space="preserve"><value>нажатий</value></data>
+  <data name="SnipSearch" xml:space="preserve"><value>Поиск по сокращению или тексту</value></data>
+  <data name="SnipOnlySecrets" xml:space="preserve"><value>Только секреты</value></data>
+  <data name="SnipCount" xml:space="preserve"><value>Сокращений: {0} · секретов: {1}</value></data>
+  <data name="SnipAdd" xml:space="preserve"><value>Добавить</value></data>
+  <data name="SnipColKeys" xml:space="preserve"><value>Сокращение</value></data>
+  <data name="SnipColText" xml:space="preserve"><value>Текст</value></data>
+  <data name="SnipColAfter" xml:space="preserve"><value>После вставки</value></data>
+  <data name="SnipColHow" xml:space="preserve"><value>Как вставлять</value></data>
+  <data name="SnipEmpty" xml:space="preserve"><value>Нет сокращений по такому условию</value></data>
+  <data name="SnipSecretCell" xml:space="preserve"><value>секрет ••••••••</value></data>
+  <data name="SnipHowType" xml:space="preserve"><value>печать</value></data>
+  <data name="SnipHowClipboard" xml:space="preserve"><value>буфер обмена</value></data>
+  <data name="SnipSpaceNote" xml:space="preserve"><value>␣ — пробел</value></data>
+  <data name="SnipToggleLabel" xml:space="preserve"><value>{0}: включено</value></data>
+  <data name="SnipNotEnabled" xml:space="preserve"><value>Сокращение «{0}» не включено. {1}</value></data>
+  <data name="SnipOpenSnippet" xml:space="preserve"><value>Открыть это сокращение</value></data>
+  <data name="SnipEditorNew" xml:space="preserve"><value>Новое сокращение</value></data>
+  <data name="SnipKeys" xml:space="preserve"><value>Сокращение</value></data>
+  <data name="SnipInOther" xml:space="preserve"><value>те же клавиши в другой раскладке: {0}</value></data>
+  <data name="SnipSecret" xml:space="preserve"><value>Секрет</value></data>
+  <data name="SnipSecretHint" xml:space="preserve"><value>Для паролей: текст хранится зашифрованным</value></data>
+  <data name="SnipText" xml:space="preserve"><value>Текст</value></data>
+  <data name="SnipTextSecretName" xml:space="preserve"><value>Текст секрета</value></data>
+  <data name="SnipShow" xml:space="preserve"><value>Показать</value></data>
+  <data name="SnipHide" xml:space="preserve"><value>Скрыть</value></data>
+  <data name="SnipSecretOnlyClipboard" xml:space="preserve"><value>Секрет — только через буфер обмена</value></data>
+  <data name="SnipNewlineHint" xml:space="preserve"><value>Чтобы чат или форма не отправились раньше времени</value></data>
+  <data name="SnipAfter" xml:space="preserve"><value>После вставки</value></data>
+  <data name="SnipAfterHint" xml:space="preserve"><value>необязательно</value></data>
+  <data name="SnipDelete" xml:space="preserve"><value>Удалить сокращение</value></data>
+  <data name="DeleteSnipTitle" xml:space="preserve"><value>Удалить сокращение?</value></data>
+  <data name="DeleteSnipText" xml:space="preserve"><value>Сокращение «{0}» будет удалено.</value></data>
+  <data name="UnsavedSnipText" xml:space="preserve"><value>В сокращении «{0}» есть несохранённые изменения.</value></data>
+  <data name="SnipErrKeysEmpty" xml:space="preserve"><value>Введите сокращение</value></data>
+  <data name="SnipErrUntypable" xml:space="preserve"><value>Эти символы нельзя набрать ни в одной установленной раскладке</value></data>
+  <data name="SnipErrTextEmpty" xml:space="preserve"><value>Введите текст замены</value></data>
+  <data name="SnipErrTaken" xml:space="preserve"><value>Эти клавиши уже занимает сокращение «{0}».</value></data>
+  <data name="SnipWarnPrefix" xml:space="preserve"><value>Это сокращение — начало «{0}»: оно сработает первым, а «{0}» не сработает никогда.</value></data>
+  <data name="SnipWarnStartsWith" xml:space="preserve"><value>«{0}» — начало этого сокращения: «{0}» сработает первым, а это — никогда.</value></data>
+  <data name="SnipSecretMissing" xml:space="preserve"><value>Текст секрета не найден в хранилище — введите его заново.</value></data>
+  <data name="SnipSecretFailed" xml:space="preserve"><value>Не удалось сохранить секрет в зашифрованное хранилище.</value></data>
+  <data name="HintEnabledTitle" xml:space="preserve"><value>Показывать подсказку раскладки</value></data>
+  <data name="HintEnabledHint" xml:space="preserve"><value>Включите, чтобы видеть, когда сменилась раскладка</value></data>
+  <data name="HintPositionTitle" xml:space="preserve"><value>Где показывать</value></data>
+  <data name="HintPositionHint" xml:space="preserve"><value>У текстового курсора или у указателя мыши</value></data>
+  <data name="HintPositionCaret" xml:space="preserve"><value>У курсора, иначе у мыши</value></data>
+  <data name="HintPositionMouse" xml:space="preserve"><value>Всегда у мыши</value></data>
+  <data name="HintDurationTitle" xml:space="preserve"><value>Сколько показывать</value></data>
+  <data name="HintDurationHint" xml:space="preserve"><value>Через это время подсказка исчезнет</value></data>
+  <data name="HintDurationUnit" xml:space="preserve"><value>мс</value></data>
+  <data name="HintOnlyOwnTitle" xml:space="preserve"><value>Только когда язык сменил KeyMend</value></data>
+  <data name="HintOnlyOwnHint" xml:space="preserve"><value>Не показывать при Alt+Shift и смене на панели задач</value></data>
+  <data name="HintSampleTitle" xml:space="preserve"><value>Как выглядит</value></data>
+  <data name="HintSampleHint" xml:space="preserve"><value>Нажмите, чтобы увидеть подсказку на экране</value></data>
+  <data name="HintShow" xml:space="preserve"><value>Показать</value></data>
+  <data name="HintLanguageRulesLink" xml:space="preserve"><value>Правила переключения языка</value></data>
+  <data name="ExclLead" xml:space="preserve"><value>Программы, в которых функции KeyMend не нужны</value></data>
+  <data name="ExclManual" xml:space="preserve"><value>Ввести имя вручную</value></data>
+  <data name="ExclManualHint" xml:space="preserve"><value>Имя программы, например chrome.exe</value></data>
+  <data name="ExclFromRunning" xml:space="preserve"><value>Добавить из запущенных</value></data>
+  <data name="ExclAdd" xml:space="preserve"><value>Добавить</value></data>
+  <data name="ExclInvalidName" xml:space="preserve"><value>Введите имя программы, например chrome.exe: без символов \ / : * ? &quot; &lt; &gt; |</value></data>
+  <data name="ExclDuplicate" xml:space="preserve"><value>{0} уже в списке.</value></data>
+  <data name="ExclSearchRunning" xml:space="preserve"><value>Найти программу</value></data>
+  <data name="ExclRunningNow" xml:space="preserve"><value>Сейчас запущены</value></data>
+  <data name="ExclNoRunning" xml:space="preserve"><value>Подходящих программ нет</value></data>
+  <data name="ExclCountOne" xml:space="preserve"><value>программа</value></data>
+  <data name="ExclCountFew" xml:space="preserve"><value>программы</value></data>
+  <data name="ExclCountMany" xml:space="preserve"><value>программ</value></data>
+  <data name="ExclEmpty" xml:space="preserve"><value>Исключений нет: KeyMend работает во всех программах</value></data>
+  <data name="ExclColProgram" xml:space="preserve"><value>Программа</value></data>
+  <data name="ExclColWorks" xml:space="preserve"><value>Что работает в программе</value></data>
+  <data name="ExclFeatureLayout" xml:space="preserve"><value>Переключение языка</value></data>
+  <data name="ExclFeatureCorrection" xml:space="preserve"><value>Исправление ввода</value></data>
+  <data name="ExclFeatureSnippets" xml:space="preserve"><value>Автозамена</value></data>
+  <data name="ExclFeatureRules" xml:space="preserve"><value>Остальные правила</value></data>
+  <data name="ExclDelete" xml:space="preserve"><value>Удалить {0}</value></data>
+  <data name="GeneralGroupWork" xml:space="preserve"><value>Работа</value></data>
+  <data name="GeneralEnabledTitle" xml:space="preserve"><value>KeyMend включён</value></data>
+  <data name="GeneralEnabledHint" xml:space="preserve"><value>Включите, чтобы работали все функции KeyMend</value></data>
+  <data name="GeneralLogTitle" xml:space="preserve"><value>Вести журнал работы</value></data>
+  <data name="GeneralLogHint" xml:space="preserve"><value>Нужен, только чтобы разобраться, если что-то работает не так</value></data>
+  <data name="GeneralGroupAutostart" xml:space="preserve"><value>Автозапуск</value></data>
+  <data name="GeneralAutostartTitle" xml:space="preserve"><value>Запускать вместе с Windows</value></data>
+  <data name="GeneralAutostartHint" xml:space="preserve"><value>KeyMend будет запускаться при входе в Windows с обычными правами</value></data>
+  <data name="GeneralAdminTitle" xml:space="preserve"><value>Запускать от администратора</value></data>
+  <data name="GeneralAdminHint" xml:space="preserve"><value>Позволяет работать в окнах, запущенных от администратора</value></data>
+  <data name="GeneralAdminEnable" xml:space="preserve"><value>Включить…</value></data>
+  <data name="GeneralAdminDisable" xml:space="preserve"><value>Выключить…</value></data>
+  <data name="GeneralOpenFolder" xml:space="preserve"><value>Открыть папку с настройками</value></data>
+  <data name="AboutVersion" xml:space="preserve"><value>Версия {0}</value></data>
+  <data name="AboutAdminBadge" xml:space="preserve"><value>Запущен от администратора</value></data>
+  <data name="AboutGroupInfo" xml:space="preserve"><value>Сведения</value></data>
+  <data name="AboutPrivacyTitle" xml:space="preserve"><value>Приватность</value></data>
+  <data name="AboutPrivacyText" xml:space="preserve"><value>KeyMend не выходит в интернет и не записывает, что вы печатаете. В реестр пишет только пункт автозапуска</value></data>
+  <data name="AboutGroupFolders" xml:space="preserve"><value>Папки приложения</value></data>
+  <data name="AboutFolderProgram" xml:space="preserve"><value>Программа</value></data>
+  <data name="AboutFolderData" xml:space="preserve"><value>Настройки, секреты и резервные копии</value></data>
+  <data name="AboutFolderScripts" xml:space="preserve"><value>Скрипты</value></data>
+  <data name="AboutFolderLog" xml:space="preserve"><value>Журнал работы</value></data>
+  <data name="AboutLogOff" xml:space="preserve"><value>сейчас пусто, журнал выключен</value></data>
+  <data name="AboutOpen" xml:space="preserve"><value>Открыть</value></data>
+  <data name="AboutGroupRegistry" xml:space="preserve"><value>Реестр Windows</value></data>
+  <data name="AboutRegistryTitle" xml:space="preserve"><value>Автозапуск</value></data>
+  <data name="AboutRegistryValue" xml:space="preserve"><value>Если значения «{0}» нет, автозапуск выключен</value></data>
+  <data name="AboutCopyPath" xml:space="preserve"><value>Копировать путь</value></data>
+  <data name="AboutRepoTitle" xml:space="preserve"><value>Репозиторий</value></data>
+  <data name="AboutRepoHint" xml:space="preserve"><value>Исходный код и новые версии.</value></data>
+  <data name="AboutCopyLink" xml:space="preserve"><value>Копировать ссылку</value></data>
+  <data name="HelpButtonName" xml:space="preserve"><value>Подсказка: </value></data>
+  <data name="HelpTheme" xml:space="preserve"><value>Меняет цвет окна настроек и меню значка в трее.
+
+**Как в Windows** — окно следует режиму приложений (Параметры → Персонализация → Цвета) и меняется само, без перезапуска.
+
+Подсказка раскладки всегда тёмная.</value></data>
+  <data name="HelpEnabled" xml:space="preserve"><value>Выключите, чтобы на время остановить всё: переключение языка, исправление ввода, автозамену и остальные правила. KeyMend остаётся в трее, клавиши работают как обычно.
+
+То же делает пункт «Включено» в меню значка в трее.</value></data>
+  <data name="HelpLog" xml:space="preserve"><value>Журнал (лог программы) — текстовые файлы, по одному на день, хранятся 7 дней. В нём только события, например «converted 5 chars». То, что вы печатаете, KeyMend не записывает никогда.
+
+Включите, если что-то работает не так: журнал поможет найти причину.</value></data>
+  <data name="HelpAutostart" xml:space="preserve"><value>KeyMend запускается при входе в Windows с обычными правами, сразу в трей, без окна. Для этого в реестре создаётся одна запись (её видно в «О программе»).
+
+Пока включён запуск от администратора, этот переключатель недоступен.</value></data>
+  <data name="HelpAdmin" xml:space="preserve"><value>Windows защищает программы, запущенные от администратора: обычная программа не может в них переключить язык или исправить текст. Например, это Диспетчер задач или редактор реестра.
+
+Если включить, KeyMend будет запускаться с правами администратора и сможет работать во всех окнах. Обычный автозапуск при этом выключится.
+
+Программы и скрипты из ваших правил всё равно запускаются с обычными правами.</value></data>
+  <data name="HelpHintEnabled" xml:space="preserve"><value>При смене языка рядом с текстовым курсором ненадолго появляется подсказка с названием раскладки.
+
+Она показывается при любой смене: клавишами из правил, через Alt+Shift или на панели задач. Подсказка не мешает: по ней можно кликнуть насквозь, и она не забирает ввод.</value></data>
+  <data name="HelpHintPosition" xml:space="preserve"><value>**У курсора, иначе у мыши** — подсказка всплывает рядом с текстовым курсором. Некоторые браузеры и консоли не сообщают, где курсор. Тогда подсказка всплывает у указателя мыши.
+
+**Всегда у мыши** — подсказка всегда всплывает у указателя мыши.</value></data>
+  <data name="HelpHintDuration" xml:space="preserve"><value>Сколько миллисекунд подсказка видна на экране: от 200 до 5000 (1000 мс — одна секунда).</value></data>
+  <data name="HelpHintOnlyOwn" xml:space="preserve"><value>Подсказка появится, только если язык переключил сам KeyMend. При смене через Alt+Shift, Win+Пробел или на панели задач подсказки не будет.</value></data>
+  <data name="HelpRulesLead" xml:space="preserve"><value>Правила позволяют по нажатию клавиш переключить язык, исправить текст, запустить программу, усыпить компьютер. Шагов может быть несколько, они выполняются по порядку.
+
+Правила не работают в программах из «Исключений» и в окнах, запущенных от администратора, пока сам KeyMend запущен с обычными правами.</value></data>
+  <data name="HelpKeys" xml:space="preserve"><value>Нажмите «Записать», затем нажмите клавиши, на которые должно срабатывать правило. Записать можно три вида:
+
+**Одна клавиша-модификатор.** Например, правый Ctrl. Правило сработает, когда вы нажмёте и сразу отпустите только её.
+
+**Несколько модификаторов вместе.** Например, правые Ctrl и Shift. Нажимать их можно в любом порядке. Если при записи зажать одну клавишу и, не отпуская, нажать вторую, получится правило «держать Ctrl + Shift»: оно сработает, только когда Ctrl уже зажат, а Shift вы нажимаете.
+
+**Сочетание с обычной клавишей.** Например, Ctrl+Alt+K или F13. Правило сработает сразу, как только вы нажмёте сочетание.
+
+Левые и правые Ctrl, Shift и Alt — разные клавиши. Сочетание, которое уже занято другим правилом, или системное сочетание Windows (например, Alt+Tab) сохранить нельзя.</value></data>
+  <data name="HelpTime" xml:space="preserve"><value>**Одиночное** — правило сработает, если отпустить клавиши быстрее этого времени. Держали дольше — значит, клавиша была нужна для другого, например для Ctrl+C, и правило не сработает.
+
+**Двойное** — второе нажатие должно успеть за это время.
+
+Если на тех же клавишах есть и одиночное, и двойное правило, одиночное ждёт, не будет ли второго нажатия, и срабатывает с этой задержкой.</value></data>
+  <data name="HelpWhere" xml:space="preserve"><value>**Во всех программах** — везде, кроме программ из раздела «Исключения».
+
+**Только в выбранных** — только в окнах выбранных программ. Имя — как у файла программы, например chrome.exe (его видно в Диспетчере задач на вкладке «Подробности»).
+
+На одни и те же клавиши можно назначить разные правила для разных программ.</value></data>
+  <data name="HelpSwitchHow" xml:space="preserve"><value>**По очереди между двумя языками** — каждое нажатие включает другой язык пары; если сейчас включён язык не из пары, включается первый.
+
+**Всегда включать один язык** — например, английский перед вводом пароля.</value></data>
+  <data name="HelpCorrectWhat" xml:space="preserve"><value>Исправляет текст, набранный не в той раскладке.
+
+**Выделенный текст** — выделите текст и нажмите клавиши.
+**До начала строки** — без выделения: KeyMend сам возьмёт текст от курсора до начала строки.
+
+Например, «Ghbdtn? rfr ltkf&amp;» станет «Привет, как дела?». Повторное нажатие возвращает текст обратно, Ctrl+Z тоже отменяет исправление.</value></data>
+  <data name="HelpCorrectLanguages" xml:space="preserve"><value>Между какими раскладками переводить. KeyMend смотрит, каких букв в тексте больше, и переводит в другую раскладку пары. Например, в «ghbdtn» английских букв больше, получится «привет».
+
+Если букв обеих раскладок поровну, текст считается набранным в текущей раскладке и переводится в другую.</value></data>
+  <data name="HelpCorrectSwitchAfter" xml:space="preserve"><value>Когда текст исправлен, KeyMend включает язык, на котором он теперь написан, и показывает подсказку раскладки. Можно сразу печатать дальше.
+
+Выключите, если язык хотите переключать сами.</value></data>
+  <data name="HelpCorrectMax" xml:space="preserve"><value>Защита от случайного исправления большого текста: если текста больше, KeyMend его не трогает. От 10 до 1 000 000 символов.</value></data>
+  <data name="HelpLaunchFile" xml:space="preserve"><value>Программа или скрипт: .exe, .ps1, .cmd, .bat. Указать можно:
+**полный путь** — C:\Tools\app.exe;
+**путь в папке скриптов KeyMend** — tools\x.ps1; такое правило переедет на другой компьютер вместе с настройками;
+**имя программы Windows** — notepad.exe.
+
+Программы и скрипты запускаются с обычными правами, даже если KeyMend работает от администратора.</value></data>
+  <data name="HelpLaunchType" xml:space="preserve"><value>Подбирается по расширению файла. Например, для backup.bat будет выбран «Пакетный файл (.cmd, .bat)», для .ps1 — «PowerShell 7».
+
+Скрипты PowerShell запускаются с параметром -ExecutionPolicy Bypass.</value></data>
+  <data name="HelpLaunchArgs" xml:space="preserve"><value>Что передать программе после имени файла, как в командной строке. Например, /SetOrientation 1 90. Пути с пробелами берите в кавычки: "C:\Мои документы\отчёт.txt".</value></data>
+  <data name="HelpLaunchWindow" xml:space="preserve"><value>**Обычное** — как при запуске двойным кликом.
+**Скрытое** — для скриптов, которые должны работать незаметно.
+**Свёрнутое** — сразу на панели задач.
+
+Некоторые программы сами решают, как показать окно.</value></data>
+  <data name="HelpLaunchRepeat" xml:space="preserve"><value>Что делать, если вы нажали клавиши, а программа с прошлого раза ещё работает:
+
+**Не запускать снова** — ничего не делать, пусть работает дальше. Подходит почти всегда.
+
+**Запустить ещё одну** — открыть вторую копию рядом с первой.
+
+**Закрыть и запустить заново** — остановить прошлую и начать сначала.</value></data>
+  <data name="HelpLaunchWait" xml:space="preserve"><value>Следующий шаг правила начнётся только после того, как программа закроется. Если она завершится с ошибкой, появится уведомление и остальные шаги не выполнятся.</value></data>
+  <data name="HelpLaunchWorkDir" xml:space="preserve"><value>Папка, в которой программа будет искать файлы, заданные без полного пути. Например, скрипт сохраняет report.txt — с рабочей папкой D:\Отчёты файл окажется там.
+
+Пусто — папка самого файла; обычно этого достаточно.</value></data>
+  <data name="HelpPowerAction" xml:space="preserve"><value>**Сон** — компьютер засыпает, всё остаётся в памяти.
+**Гибернация** — всё сохраняется на диск, компьютер выключается; должна быть включена в Windows.
+**Выключение** — компьютер выключается.
+**Перезагрузка** — компьютер перезагружается.
+**Блокировка** — экран входа, программы работают дальше.
+**Выход из системы** — все программы закрываются.</value></data>
+  <data name="HelpPowerWhen" xml:space="preserve"><value>**Сейчас** — сразу.
+
+**Через** — ставится таймер от 1 минуты до 24 часов; новый таймер заменяет прежний. За минуту до срабатывания появится отсчёт с кнопкой «Отменить». Отменить таймер можно и в меню значка в трее.</value></data>
+  <data name="HelpPowerCountdown" xml:space="preserve"><value>Перед выключением или перезагрузкой на 10 секунд появится окно с отсчётом и кнопкой «Отменить» — на случай, если клавиши нажаты случайно.</value></data>
+  <data name="HelpPress" xml:space="preserve"><value>Какие клавиши нажать в активном окне, например Ctrl+Enter, Alt+F4 или Win+D. Другие правила KeyMend на нажатия, которые делает сам KeyMend, не срабатывают.</value></data>
+  <data name="HelpDelay" xml:space="preserve"><value>Подождать перед следующим шагом, например, пока откроется окно программы. От 0 до 60 000 мс (минута).</value></data>
+  <data name="HelpInsertHow" xml:space="preserve"><value>**Печатать** — KeyMend набирает текст, как с клавиатуры. Работает почти везде, но длинный текст печатается заметно медленнее.
+
+**Через буфер обмена** — быстро для любого текста; прежнее содержимое буфера потом возвращается.</value></data>
+  <data name="HelpInsertNewline" xml:space="preserve"><value>Чем KeyMend печатает переносы строк из поля «Текст».
+
+В чатах и мессенджерах Enter часто сразу отправляет сообщение: если в тексте есть перенос строки, недопечатанный текст может уйти раньше времени.
+
+**Shift+Enter** переносит строку, не отправляя.
+**Enter** — для программ, где Shift+Enter не работает.</value></data>
+  <data name="HelpServiceAction" xml:space="preserve"><value>**Пауза KeyMend** — выключить или снова включить все функции, как «Включено» в меню значка в трее.
+**Открыть настройки** — открыть окно настроек KeyMend.
+**Отменить таймер питания** — отменить сон или выключение по таймеру.</value></data>
+  <data name="HelpSnipLead" xml:space="preserve"><value>KeyMend помнит последние нажатые клавиши. Когда они совпадают с сокращением, он стирает сокращение и вставляет текст.
+
+Сокращение срабатывает в любой раскладке: например, «gm » и «пь » — одно и то же. Удобно заканчивать сокращение пробелом, чтобы оно не срабатывало внутри слов.
+
+В окне настроек KeyMend автозамена не работает.</value></data>
+  <data name="HelpSnipBuffer" xml:space="preserve"><value>Сколько последних нажатий KeyMend держит, чтобы узнать сокращение (20–1000). Набранное хранится только в памяти и стирается при смене окна, клике мышью, Enter и Esc.</value></data>
+  <data name="HelpSnipKeys" xml:space="preserve"><value>Буквы, цифры, знаки и пробел, которые вы набираете. KeyMend запоминает клавиши, а не буквы, поэтому рядом показано, как сокращение выглядит в другой раскладке. Например, «дд » и «ll ».</value></data>
+  <data name="HelpSnipSecret" xml:space="preserve"><value>Для паролей и других секретов. Текст хранится зашифрованным средствами Windows (прочитать его можно только под вашей учётной записью), в файле настроек остаётся только ссылка.
+
+Секрет вставляется только через буфер обмена, прежнее содержимое буфера потом возвращается.</value></data>
+  <data name="HelpSnipAfter" xml:space="preserve"><value>Что нажать после вставки текста, например Ctrl+Enter, чтобы отправить сообщение.</value></data>
+  <data name="HelpExclLead" xml:space="preserve"><value>Программы, в которых KeyMend должен вести себя иначе: например, игры или удалённый рабочий стол со своими сочетаниями клавиш. Галочки в строке — что в этой программе всё же работает; без галочек KeyMend в ней ничего не делает.
+
+Имя программы — имя её файла, например mstsc.exe.</value></data>
+  <data name="LaunchFailed" xml:space="preserve"><value>Правило «{0}»: не удалось запустить программу.</value></data>
+  <data name="LaunchRejected" xml:space="preserve"><value>Правило «{0}»: {1}.</value></data>
+  <data name="LaunchReasonNoFile" xml:space="preserve"><value>в шаге не указан файл</value></data>
+  <data name="LaunchReasonFileMissing" xml:space="preserve"><value>файл не найден</value></data>
+  <data name="LaunchReasonWorkDirMissing" xml:space="preserve"><value>рабочая папка не найдена</value></data>
+  <data name="LaunchReasonOutsideScripts" xml:space="preserve"><value>относительный путь выходит за папку скриптов</value></data>
+  <data name="LaunchReasonNoPwsh" xml:space="preserve"><value>PowerShell 7 (pwsh.exe) не найден</value></data>
+  <data name="LaunchReasonBad" xml:space="preserve"><value>неверные параметры запуска</value></data>
+  <data name="LaunchExitCode" xml:space="preserve"><value>Правило «{0}»: программа завершилась с кодом {1}.</value></data>
+  <data name="NotifyHibernateOff" xml:space="preserve"><value>Гибернация выключена в Windows.</value></data>
+  <data name="PowerCountdownShutdown" xml:space="preserve"><value>Компьютер выключится через {0} с.</value></data>
+  <data name="PowerCountdownRestart" xml:space="preserve"><value>Компьютер перезагрузится через {0} с.</value></data>
+  <data name="PowerNameSleep" xml:space="preserve"><value>сон</value></data>
+  <data name="PowerNameHibernate" xml:space="preserve"><value>гибернация</value></data>
+  <data name="PowerNameShutdown" xml:space="preserve"><value>выключение</value></data>
+  <data name="PowerNameRestart" xml:space="preserve"><value>перезагрузка</value></data>
+  <data name="PowerNameLock" xml:space="preserve"><value>блокировка</value></data>
+  <data name="PowerNameSignOut" xml:space="preserve"><value>выход из системы</value></data>
+  <data name="PowerTimerSet" xml:space="preserve"><value>Таймер установлен: {0} через {1} мин, в {2}. Отмена — в меню значка.</value></data>
+  <data name="PowerSoon" xml:space="preserve"><value>{0} через {1} с.</value></data>
+  <data name="PowerFailed" xml:space="preserve"><value>Не удалось выполнить действие: {0}.</value></data>
+  <data name="PowerTimerCancelled" xml:space="preserve"><value>Таймер питания отменён.</value></data>
+  <data name="PowerTimerAt" xml:space="preserve"><value>{0} в {1} (через {2} мин)</value></data>
+  <data name="PowerTimerSoon" xml:space="preserve"><value>{0} в {1} (менее чем через минуту)</value></data>
+  <data name="AppAdminRunning" xml:space="preserve"><value>KeyMend уже запущен от имени администратора. Закройте его из трея и запустите снова.</value></data>
+  <data name="ErrClipboard" xml:space="preserve"><value>Не удалось скопировать в буфер обмена.</value></data>
+  <data name="ErrOpenFolder" xml:space="preserve"><value>Не удалось открыть папку.</value></data>
+  <data name="ErrHook" xml:space="preserve"><value>Не удалось установить перехват клавиатуры.</value></data>
+  <data name="ErrSecretsSave" xml:space="preserve"><value>Не удалось сохранить секреты в зашифрованном хранилище.</value></data>
+  <data name="ErrSecretsPlain" xml:space="preserve"><value>Секреты сохранены, но settings.json не удалось перезаписать: удалите открытый текст вручную.</value></data>
+  <data name="ErrOpenDataFolder" xml:space="preserve"><value>Не удалось открыть папку данных.</value></data>
+  <data name="ErrOpenSettingsFile" xml:space="preserve"><value>Не удалось открыть settings.json.</value></data>
+  <data name="ErrAutostart" xml:space="preserve"><value>Не удалось изменить автозапуск.</value></data>
+  <data name="SettingsSkipped" xml:space="preserve"><value>settings.json: пропущено правил — {0} (подробности в логе).</value></data>
+  <data name="SettingsRejected" xml:space="preserve"><value>settings.json не применён, работают прежние настройки. {0}</value></data>
+  <data name="AdminAutostartCaption" xml:space="preserve"><value>Автозапуск от администратора</value></data>
+  <data name="AdminAutostartAsk" xml:space="preserve"><value>Будет сделано:
+• программа скопируется в C:\Program Files\KeyMend\&lt;ваше имя&gt;;
+• будет создана задача Планировщика: при входе в Windows она запускает эту копию с правами администратора без запроса UAC;
+• обычный автозапуск будет выключен.
+
+Windows запросит подтверждение (UAC). Продолжить?</value></data>
+  <data name="AdminAutostartInstallFailed" xml:space="preserve"><value>Не удалось включить автозапуск от администратора. Подробности в логе.</value></data>
+  <data name="AdminAutostartDone" xml:space="preserve"><value>Готово. Запустить сейчас версию с правами администратора?
+Этот экземпляр завершится.</value></data>
+  <data name="AdminAutostartRemoveAsk" xml:space="preserve"><value>Выключить автозапуск от администратора? Задача и копия в Program Files будут удалены (потребуется UAC).</value></data>
+  <data name="AdminAutostartRemoveFailed" xml:space="preserve"><value>Не удалось выключить автозапуск от администратора. Подробности в логе.</value></data>
+  <data name="CountdownCancel" xml:space="preserve"><value>Отменить</value></data>
+  <data name="CountdownLeft" xml:space="preserve"><value>Осталось: {0} с</value></data>
+  <data name="DefaultRuleLang" xml:space="preserve"><value>Язык</value></data>
+  <data name="DefaultRuleLangWork" xml:space="preserve"><value>Язык (работа)</value></data>
+  <data name="DefaultRuleFixSelection" xml:space="preserve"><value>Исправить выделенное</value></data>
+  <data name="DefaultRuleFixLine" xml:space="preserve"><value>Исправить до начала строки</value></data>
+  <data name="TransferGroupSave" xml:space="preserve"><value>Сохранить</value></data>
+  <data name="TransferGroupLoad" xml:space="preserve"><value>Загрузить</value></data>
+  <data name="TransferGroupBackups" xml:space="preserve"><value>Резервные копии</value></data>
+  <data name="TransferGroupFolder" xml:space="preserve"><value>Папка с настройками</value></data>
+  <data name="TransferSaveTitle" xml:space="preserve"><value>Сохранить настройки в файл</value></data>
+  <data name="TransferSaveHint" xml:space="preserve"><value>Чтобы перенести их на другой компьютер</value></data>
+  <data name="TransferSaveButton" xml:space="preserve"><value>Сохранить…</value></data>
+  <data name="HelpTransferSave" xml:space="preserve"><value>В файл .keymend попадают правила, автозамена, исключения, настройки подсказки раскладки и файлы из папки скриптов.
+
+Автозапуск и режим администратора в файл не попадают: на другом компьютере их включают заново.</value></data>
+  <data name="TransferSecretsTitle" xml:space="preserve"><value>Добавить секреты</value></data>
+  <data name="TransferSecretsHint" xml:space="preserve"><value>Пароли из автозамены, защищённые вашим паролем</value></data>
+  <data name="HelpTransferSecrets" xml:space="preserve"><value>Без этой галочки секретные сокращения попадут в файл без текста и на другом компьютере будут выключены.
+
+С галочкой тексты секретов шифруются паролем, который вы придумаете здесь. Без него файл их не откроет.
+
+**Пароль нигде не сохраняется.** Забудете его — секреты из файла не вернуть.</value></data>
+  <data name="TransferPasswordLabel" xml:space="preserve"><value>Пароль</value></data>
+  <data name="TransferPasswordRepeat" xml:space="preserve"><value>Повторите пароль</value></data>
+  <data name="TransferPasswordShort" xml:space="preserve"><value>Пароль короче {0} символов</value></data>
+  <data name="TransferPasswordMismatch" xml:space="preserve"><value>Пароли не совпадают</value></data>
+  <data name="TransferExportDone" xml:space="preserve"><value>Файл сохранён.</value></data>
+  <data name="TransferExportFailed" xml:space="preserve"><value>Не удалось сохранить файл. Подробности в журнале.</value></data>
+  <data name="TransferExportTooLarge" xml:space="preserve"><value>Файлы в папке скриптов не помещаются в один файл переноса.</value></data>
+  <data name="TransferSaveDialogTitle" xml:space="preserve"><value>Сохранить настройки</value></data>
+  <data name="TransferSaveFilter" xml:space="preserve"><value>Файлы KeyMend (*.keymend)|*.keymend</value></data>
+  <data name="TransferOpenDialogTitle" xml:space="preserve"><value>Выберите файл настроек</value></data>
+  <data name="TransferOpenFilter" xml:space="preserve"><value>Файлы KeyMend и настройки (*.keymend;*.json)|*.keymend;*.json|Все файлы (*.*)|*.*</value></data>
+  <data name="TransferLoadTitle" xml:space="preserve"><value>Загрузить настройки из файла</value></data>
+  <data name="TransferLoadHint" xml:space="preserve"><value>Текущие настройки сначала сохранятся в резервную копию</value></data>
+  <data name="TransferLoadButton" xml:space="preserve"><value>Выбрать файл…</value></data>
+  <data name="HelpTransferLoad" xml:space="preserve"><value>Подходит файл .keymend или обычный settings.json, например стартовый набор.
+
+Файл сначала проверяется целиком. Если он повреждён или создан более новой версией KeyMend, ничего не изменится.</value></data>
+  <data name="TransferFileSummary" xml:space="preserve"><value>Правил: {0} · сокращений: {1} · исключений: {2}</value></data>
+  <data name="TransferModeReplace" xml:space="preserve"><value>Заменить текущие</value></data>
+  <data name="TransferModeMerge" xml:space="preserve"><value>Добавить к текущим</value></data>
+  <data name="HelpTransferMode" xml:space="preserve"><value>**Заменить текущие** — настройки из файла полностью занимают место ваших: общие настройки, правила, автозамена, исключения. Файлы скриптов из архива перезаписывают ваши с теми же именами.
+
+**Добавить к текущим** — к вашим добавляется то, чего у вас нет. Общие настройки и файлы скриптов с теми же именами остаются вашими, одинаковое не дублируется.
+
+Если клавиши правила или сокращения совпадают с вашими, KeyMend спросит, что оставить.</value></data>
+  <data name="TransferSecretsPassword" xml:space="preserve"><value>Пароль от секретов</value></data>
+  <data name="TransferSecretsPasswordHint" xml:space="preserve"><value>Пусто — загрузить без секретов</value></data>
+  <data name="TransferConflictsTitle" xml:space="preserve"><value>Совпадают клавиши</value></data>
+  <data name="TransferConflictRule" xml:space="preserve"><value>Правило «{0}» из файла на тех же клавишах, что у вас: «{1}»</value></data>
+  <data name="TransferConflictSnippet" xml:space="preserve"><value>Сокращение «{0}» из файла на тех же клавишах, что у вас: «{1}»</value></data>
+  <data name="TransferConflictExclusion" xml:space="preserve"><value>Исключение для «{0}» из файла отличается от вашего</value></data>
+  <data name="TransferChoiceKeep" xml:space="preserve"><value>Оставить текущее</value></data>
+  <data name="TransferChoiceTake" xml:space="preserve"><value>Взять из файла</value></data>
+  <data name="TransferCancel" xml:space="preserve"><value>Отмена</value></data>
+  <data name="TransferApply" xml:space="preserve"><value>Загрузить</value></data>
+  <data name="TransferErrUnreadable" xml:space="preserve"><value>Файл не читается или это не файл KeyMend.</value></data>
+  <data name="TransferErrMissingSettings" xml:space="preserve"><value>В файле нет настроек.</value></data>
+  <data name="TransferErrBadSettings" xml:space="preserve"><value>Настройки в файле повреждены.</value></data>
+  <data name="TransferErrNewer" xml:space="preserve"><value>Файл создан более новой версией KeyMend. Обновите программу.</value></data>
+  <data name="TransferErrBadSecrets" xml:space="preserve"><value>Секреты в файле повреждены.</value></data>
+  <data name="TransferErrUnexpected" xml:space="preserve"><value>В файле есть лишние или небезопасные записи.</value></data>
+  <data name="TransferErrTooLarge" xml:space="preserve"><value>Файл слишком большой.</value></data>
+  <data name="TransferFailWrongPassword" xml:space="preserve"><value>Пароль не подошёл. Ничего не изменилось.</value></data>
+  <data name="TransferFailBackup" xml:space="preserve"><value>Не удалось сделать резервную копию. Ничего не изменилось.</value></data>
+  <data name="TransferFailSecrets" xml:space="preserve"><value>Не удалось записать секреты. Настройки не менялись.</value></data>
+  <data name="TransferFailScripts" xml:space="preserve"><value>Не удалось записать файлы скриптов. Настройки не менялись.</value></data>
+  <data name="TransferFailSettings" xml:space="preserve"><value>Не удалось записать настройки.</value></data>
+  <data name="TransferFailBadBackup" xml:space="preserve"><value>Резервная копия повреждена.</value></data>
+  <data name="TransferDoneAdded" xml:space="preserve"><value>Добавлено: правил {0}, сокращений {1}, исключений {2}.</value></data>
+  <data name="TransferDoneLoaded" xml:space="preserve"><value>Загружено: правил {0}, сокращений {1}, исключений {2}.</value></data>
+  <data name="TransferDoneReplaced" xml:space="preserve"><value>Заменено ваших: {0}. Оставлено ваших: {1}. Одинаковых пропущено: {2}.</value></data>
+  <data name="TransferDoneNoSecret" xml:space="preserve"><value>Секретных сокращений без текста: {0}. Они выключены.</value></data>
+  <data name="TransferDoneSkippedScripts" xml:space="preserve"><value>Файлы скриптов не заменены, у вас другие: {0}.</value></data>
+  <data name="TransferDoneMissing" xml:space="preserve"><value>Не найдены файлы программ у правил: {0}.</value></data>
+  <data name="TransferRestoreDone" xml:space="preserve"><value>Настройки восстановлены из копии.</value></data>
+  <data name="TransferBackupsTitle" xml:space="preserve"><value>Копии перед загрузкой</value></data>
+  <data name="TransferBackupsHint" xml:space="preserve"><value>Хранятся последние {0}</value></data>
+  <data name="TransferBackupsNone" xml:space="preserve"><value>Копий пока нет</value></data>
+  <data name="TransferBackupRow" xml:space="preserve"><value>{0} · перед загрузкой {1}</value></data>
+  <data name="TransferBackupRowPlain" xml:space="preserve"><value>{0} · перед восстановлением</value></data>
+  <data name="TransferRestoreButton" xml:space="preserve"><value>Восстановить</value></data>
+  <data name="TransferRestoreAskTitle" xml:space="preserve"><value>Восстановить из копии?</value></data>
+  <data name="TransferRestoreAsk" xml:space="preserve"><value>Настройки, секреты и скрипты вернутся к состоянию на {0}. Текущее состояние перед этим тоже сохранится в копию.</value></data>
+  <data name="TransferFolderHint" xml:space="preserve"><value>Настройки, секреты, скрипты и резервные копии</value></data>
+  <data name="TransferFolderOpen" xml:space="preserve"><value>Открыть папку</value></data>
+  <data name="TransferBusy" xml:space="preserve"><value>Подождите…</value></data>
+</root>
